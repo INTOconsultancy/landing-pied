@@ -1,5 +1,4 @@
 $(document).ready(function () {
-    var url = $("#pied").attr('src');
     var emailreg = /^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/;
     $(".botton").click(function () {
       $(".error").remove();
@@ -61,12 +60,11 @@ $(document).ready(function () {
             return false;
         }
     });
-
+    //scroll//
     $(function() {
     $('a[href*=#]').on('click', function(e) {
       e.preventDefault();
       $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
     });
     });
-
 });
