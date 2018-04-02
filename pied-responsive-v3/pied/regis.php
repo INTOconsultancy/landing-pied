@@ -1,7 +1,6 @@
 <?php
 $connect=mysqli_connect("landingpagepat.cqadeuab6cz9.us-east-1.rds.amazonaws.com","root","l4nd1ngp4g3","formulario");
 if ($connect) {
-		echo "conexion exitosa. <br />";
 		$nombre1= $_POST ['nombre1'];
 		$nombre2= $_POST ['nombre2'];
 		$email= $_POST ['email'];
@@ -15,7 +14,8 @@ if ($connect) {
 		$resultado=mysqli_query($connect,$consulta);
 
 		if ($resultado) {
-			echo "perfil almacenado. <br />";
+			header('Location: index.html');
+			exit();
 		}
 		else {
 			echo "error en la ejecución de la consulta. <br />";
@@ -34,7 +34,7 @@ $password = "";
 $dbname = "formulario";
 function mostrarDatos ($resultados) {
 if ($resultados !=NULL) {
-	header("location:https://goo.gl/REZdtv");
+
 
 
 }
