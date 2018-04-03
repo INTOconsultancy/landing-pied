@@ -7,20 +7,15 @@ if ($connect) {
 		$Zipcode= $_POST ['Zipcode'];
 		$number= $_POST ['number'];
 		$pais= $_POST ['pais'];
-
-
 		$consulta="insert into datos values ('$nombre1', '$nombre2', '$email', '$Zipcode', $number, '$pais')";
-
 		$resultado=mysqli_query($connect,$consulta);
-
 		if ($resultado) {
-			header('Location: index.html');
+			header('Location: Thanks.html');
 			exit();
 		}
 		else {
 			echo "error en la ejecución de la consulta. <br />";
 		}
-
 		if (mysqli_close($connect)){
 			echo "desconexion realizada. <br />";
 		}
@@ -34,9 +29,6 @@ $password = "";
 $dbname = "formulario";
 function mostrarDatos ($resultados) {
 if ($resultados !=NULL) {
-
-
-
 }
 else {echo "<br/>No hay más datos!!! <br/>";}
 }
@@ -49,8 +41,4 @@ mostrarDatos($fila);
 }
 mysqli_free_result($result);
 mysqli_close($link);
-
-
-
-
 ?>
