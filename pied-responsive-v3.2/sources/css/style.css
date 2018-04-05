@@ -317,6 +317,11 @@ footer {
     color: #b29f5a;
     font-family: AGaramondPro-Regular;
 }
+.resaltado4:hover{
+    text-decoration: none;
+    color: #a77b1e;
+
+}
 .resaltado5 {
     font-family: AGaramondPro-Italic;
 }
@@ -714,6 +719,11 @@ footer {
       color: #b29f5a;
       font-family: AGaramondPro-Regular;
   }
+  .resaltado4:hover{
+    text-decoration: none;
+    color: #a77b1e;
+
+}
   .resaltado5 {
       font-family: AGaramondPro-Italic;
   }
@@ -834,8 +844,8 @@ footer {
   }
 
   .video-player{
-   margin: 20px;
-   padding-left: 22%;
+   margin: 0px;
+   padding-left: 29%;
    padding-right: 44%;
   }
   .modal-content{
@@ -1100,6 +1110,11 @@ footer {
       color: #b29f5a;
       font-family: AGaramondPro-Regular;
   }
+  .resaltado4:hover{
+    text-decoration: none;
+    color: #a77b1e;
+
+}
   .resaltado5 {
       font-family: AGaramondPro-Italic;
   }
@@ -1222,8 +1237,8 @@ footer {
     }
 
     .video-player{
-     margin: 20px;
-     padding-left: 27%;
+     margin: 0px;
+     padding-left: 30%;
      padding-right: 27%;
     }
     .modal-content{
@@ -1487,6 +1502,11 @@ footer {
     .resaltado3 {
         color: #b29f5a;
         font-family: AGaramondPro-Regular;
+    }
+    .resaltado4:hover{
+        text-decoration: none;
+        color: #a77b1e;
+    
     }
     .resaltado5 {
         font-family: AGaramondPro-Italic;
@@ -1610,8 +1630,8 @@ footer {
     }
 
     .video-player{
-     margin: 20px;
-     padding-left: 27%;
+     margin: 0px;
+     padding-left: 30%;
      padding-right: 27%;
     }
     .modal-content{
@@ -1876,6 +1896,11 @@ footer {
         color: #b29f5a;
         font-family: AGaramondPro-Regular;
     }
+    .resaltado4:hover{
+        text-decoration: none;
+        color: #a77b1e;
+    
+    }
     .resaltado5 {
         font-family: AGaramondPro-Italic;
     }
@@ -1998,7 +2023,11 @@ footer {
   }
 
   .video-player{
-   padding-left: 31%;
+   padding-left: 34%;
+   margin: 0px;
+   padding-right: 43%;
+   padding-top: 4%;
+   width: 100%;
   }
   .modal-content{
   margin: 0 auto;
@@ -2012,7 +2041,7 @@ footer {
   }
 
   .bot{
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .resaltado4 {
@@ -2259,6 +2288,11 @@ footer {
       color: #b29f5a;
       font-family: AGaramondPro-Regular;
   }
+  .resaltado4:hover{
+    text-decoration: none;
+    color: #a77b1e;
+
+}
   .resaltado5 {
       font-family: AGaramondPro-Italic;
   }
@@ -2379,8 +2413,8 @@ footer {
   }
 
   .video-player{
-   margin: 20px;
-   padding-left: 32%;
+   margin: 0px;
+   padding-left: 34%;
    padding-right: 44%;
   }
   .modal-content{
@@ -2642,6 +2676,11 @@ footer {
       color: #b29f5a;
       font-family: AGaramondPro-Regular;
   }
+  .resaltado4:hover{
+    text-decoration: none;
+    color: #a77b1e;
+
+}
   .resaltado5 {
       font-family: AGaramondPro-Italic;
   }
@@ -3024,6 +3063,11 @@ footer {
         color: #b29f5a;
         font-family: AGaramondPro-Regular;
     }
+    .resaltado4:hover{
+        text-decoration: none;
+        color: #a77b1e;
+    
+    }
     .resaltado5 {
         font-family: AGaramondPro-Italic;
     }
@@ -3402,6 +3446,11 @@ footer {
         color: #b29f5a;
         font-family: AGaramondPro-Regular;
     }
+    .resaltado4:hover{
+        text-decoration: none;
+        color: #a77b1e;
+    
+    }
     .resaltado5 {
         font-family: AGaramondPro-Italic;
     }
@@ -3778,6 +3827,11 @@ footer {
     .resaltado3 {
         color: #b29f5a;
         font-family: AGaramondPro-Regular;
+    }
+    .resaltado4:hover{
+        text-decoration: none;
+        color: #a77b1e;
+    
     }
     .resaltado5 {
         font-family: AGaramondPro-Italic;
@@ -4157,6 +4211,11 @@ footer {
       color: #b29f5a;
       font-family: AGaramondPro-Regular;
   }
+  .resaltado4:hover{
+    text-decoration: none;
+    color: #a77b1e;
+
+}
   .resaltado5 {
       font-family: AGaramondPro-Italic;
   }
