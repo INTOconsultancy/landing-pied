@@ -1,40 +1,50 @@
 /* ----------------CONFIGURACIONES GENERALES ----------------*/
+
 @font-face {
     font-family: 'AGaramondPro-Bold';
     src: url("../fonts/AGaramondPro-Bold.otf");
 }
+
 @font-face {
     font-family: 'AGaramondPro-BoldItalic';
     src: url("../fonts/AGaramondPro-BoldItalic.otf");
 }
+
 @font-face {
     font-family: 'AGaramondPro-Italic';
     src: url("../fonts/AGaramondPro-Italic.otf");
 }
+
 @font-face {
     font-family: 'AGaramondPro-Regular';
     src: url("../fonts/AGaramondPro-Regular.otf");
 }
+
 @font-face {
     font-family: 'MyriadPro-Light';
     src: url("../fonts/MyriadPro-Light.otf");
 }
+
 @font-face {
     font-family: 'MyriadPro-Regular';
     src: url("../fonts/MyriadPro-Regular.otf");
 }
+
 @font-face {
     font-family: 'TrajanPro-Bold';
     src: url("../fonts/TrajanPro-Bold.otf");
 }
+
 @font-face {
     font-family: 'TrajanPro-Regular';
     src: url("../fonts/TrajanPro-Regular.otf");
 }
+
 @font-face {
     font-family: 'AvenirR';
     src: url("../fonts/AvenirRoman.otf");
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -43,31 +53,34 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+
 .fs35 {
     font-size: 35px;
 }
-.pied-video{
-  width: 100%;
-  height: 350px;
+
+.pied-video {
+    width: 100%;
+    height: 350px;
 }
 
-.video{
-  font-family: AvenirR;
-  width: 100%;
-  font-size: 1.5em;
-  padding-left: 39.5%
+.video {
+    font-family: AvenirR;
+    width: 100%;
+    font-size: 1.5em;
+    padding-left: 39.5%
 }
 
-.video-player{
- margin: 0px;
- padding-left: 43%;
- padding-right: 43%;
- padding-top: 4%;
- width: 100%;
+.video-player {
+    margin: 0px;
+    padding-left: 43%;
+    padding-right: 43%;
+    padding-top: 4%;
+    width: 100%;
 }
-.modal-content{
-margin: 0 auto;
-display: block;
+
+.modal-content {
+    margin: 0 auto;
+    display: block;
 }
 
 .btn-primary1 {
@@ -76,29 +89,35 @@ display: block;
     font-family: AvenirR;
 }
 
-.bot{
-  font-size: 30px;
+.bot {
+    font-size: 30px;
 }
 
 .resaltado4 {
     color: #ffffff;
 }
+
 .avenir-R {
     font-family: AvenirR;
 }
-.garamondP{
+
+.garamondP {
     font-family: AGaramondPro-Regular;
 }
+
 /* ----------------HEADER ----------------*/
+
 header {
     background-color: #ffffff;
     width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 .imagen-header {
     text-align: center;
 }
+
 .primera-seccion {
     width: 100%;
     background-image: url("../img/MaryCielo-azul1.jpg");
@@ -108,6 +127,7 @@ header {
     padding-top: 100px;
     padding-bottom: 60px;
 }
+
 .texto1 {
     width: 55%;
     margin: 0 auto;
@@ -117,6 +137,7 @@ header {
     line-height: 50px;
     text-shadow: 0 2px 1px #0b0a0a4d;
 }
+
 .segunda-seccion {
     background: #e8e8e8;
     width: 100%;
@@ -124,6 +145,7 @@ header {
     padding-bottom: 30px;
     text-align: center;
 }
+
 .texto2 {
     color: #000000;
     font-family: AGaramondPro-Regular;
@@ -169,7 +191,6 @@ header {
     transition: all 500ms ease;
 }
 
-
 .botton:hover {
     background: rgb(133, 97, 21);
 }
@@ -180,25 +201,30 @@ header {
     padding-top: 70px;
     padding-bottom: 20px;
 }
+
 .pri {
     width: 100%;
     display: flex;
     margin: 2px;
 }
+
 .texto3 {
     width: 100%;
     text-align: center;
     margin-bottom: 30px;
 }
+
 .texto31 {
     width: 100%;
     text-align: center;
     margin-bottom: 10px;
 }
+
 .resaltado31 {
     color: #b29f5a;
     font-family: AGaramondPro-Regular;
 }
+
 .text {
     font-family: MyriadPro-Regular;
     font-size: 16px;
@@ -206,32 +232,39 @@ header {
     color: #4c4c4c;
     padding: 0 50px;
 }
+
 .ban1 {
     width: 50%;
     display: flex;
     align-items: center;
 }
+
 .ban1 img {
     width: 300px;
 }
+
 .title {
     margin-bottom: 30px;
 }
+
 .formulario1 {
     background-color: #f3f3f3;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 .formulario2 {
     width: 50%;
     margin: 0 auto;
 }
+
 .formulario3 {
     width: 70%;
     margin: 0 auto;
     display: flex;
 }
+
 .formulario3 input {
     width: 50%;
     background: #ffffff;
@@ -240,44 +273,54 @@ header {
     margin-right: 10px;
     border: solid 1px #4c4c4c;
 }
+
 .formulario3 input:focus {
     transition: all 500ms ease;
     background: #f3f3f3;
 }
+
 .formulario3 select {
     height: 35px;
     border: solid 1px #4c4c4c;
     transition: all 500ms ease;
 }
+
 ::-webkit-input-placeholder {
     position: relative;
     left: 10px;
 }
+
 :-moz-placeholder {
     position: relative;
     left: 10px;
 }
+
 ::-moz-placeholder {
     position: relative;
     left: 10px;
 }
+
 :-ms-input-placeholder {
     position: relative;
     left: 10px;
 }
+
 .input100 {
-    width: 100%!important;
+    width: 100% !important;
 }
+
 .texto4 {
     text-align: center;
     width: 100%;
     margin-bottom: 20px;
 }
+
 .cuarta-seccion {
     width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
 }
+
 footer {
     width: 100%;
     background-color: #55646d;
@@ -285,18 +328,21 @@ footer {
     padding: 19px 0 18px;
     font-family: AGaramondPro-Regular;
 }
+
 .texto5 {
     color: #4c4c4c;
     text-align: center;
     font-size: 21px;
     font-family: AGaramondPro-Regular;
 }
+
 .resaltado1 {
     color: #001d58;
     text-transform: uppercase;
     font-family: TrajanPro-Regular;
     font-size: 26px;
 }
+
 .text-exp {
     margin: 2%;
     font-family: MyriadPro-Regular;
@@ -307,62 +353,75 @@ footer {
     padding-top: 16%;
     color: #4c4c4c;
 }
+
 .resaltado2 {
     color: #001d58;
     text-transform: uppercase;
     font-family: TrajanPro-Regular;
     font-size: 26px;
 }
+
 .resaltado3 {
     color: #b29f5a;
     font-family: AGaramondPro-Regular;
 }
-.resaltado4:hover{
+
+.resaltado4:hover {
     text-decoration: none;
     color: #a77b1e;
-
 }
+
 .resaltado5 {
     font-family: AGaramondPro-Italic;
 }
+
 .quinta-seccion {
     width: 100%;
     padding-top: 3%;
     padding-bottom: 7%;
 }
+
 .imges1 {
     width: 80%;
     display: flex;
     padding-left: 17%;
 }
+
 .imges2 {
     /* padding: 4%; */
     margin: 16px;
 }
+
 .gen1 {
     width: 60%;
     display: flex;
     padding-left: 12px;
 }
+
 .gen2 {
     width: 85%;
     display: flex;
     padding-left: 12px;
 }
+
 .textos1 {
     text-align: left;
 }
+
 .img-community {
     width: 60%;
     padding-left: 12%;
     display: flex;
 }
+
 .b1 {
     padding-right: 49px;
 }
+
 .b2 {
     width: 225px;
 }
+
 .b3 {
     font-size: 16px;
 }
@@ -376,6 +435,7 @@ footer {
     position: absolute;
     right: 20%;
 }
+
 .succes {
     background-color: #10bc39;
     padding: 6px 10px 6px;
@@ -391,6 +451,7 @@ footer {
     font-family: AGaramondPro-Regular;
     font-size: 25px;
 }
+
 .texto31 {
     width: 100%;
     text-align: center;
@@ -398,791 +459,766 @@ footer {
 }
 
 @media only screen and (min-width: 240px) and (max-width: 320px) {
-  @font-face {
-      font-family: 'AGaramondPro-Bold';
-      src: url("../fonts/AGaramondPro-Bold.otf");
-  }
-  @font-face {
-      font-family: 'AGaramondPro-BoldItalic';
-      src: url("../fonts/AGaramondPro-BoldItalic.otf");
-  }
-  @font-face {
-      font-family: 'AGaramondPro-Italic';
-      src: url("../fonts/AGaramondPro-Italic.otf");
-  }
-  @font-face {
-      font-family: 'AGaramondPro-Regular';
-      src: url("../fonts/AGaramondPro-Regular.otf");
-  }
-  @font-face {
-      font-family: 'MyriadPro-Light';
-      src: url("../fonts/MyriadPro-Light.otf");
-  }
-  @font-face {
-      font-family: 'MyriadPro-Regular';
-      src: url("../fonts/MyriadPro-Regular.otf");
-  }
-  @font-face {
-      font-family: 'TrajanPro-Bold';
-      src: url("../fonts/TrajanPro-Bold.otf");
-  }
-  @font-face {
-      font-family: 'TrajanPro-Regular';
-      src: url("../fonts/TrajanPro-Regular.otf");
-  }
-  @font-face {
-      font-family: 'AvenirR';
-      src: url("../fonts/AvenirRoman.otf");
-  }
-  .fs35 {
-      font-size: 15px;
-  }
-
-  .pied-video{
-    width: 100%;
-    height: 200px;
-  }
-
-  .video{
-    font-family: AvenirR;
-    width: 100%;
-    font-size: 1.5em;
-    padding-left: 39.5%
-  }
-
-  .video-player{
-   padding-left: 25%;
-   padding-right: 20%;
-   width: 100%;
-   margin: 0px;
-   padding-top: 0px;
-  }
-  .modal-content{
-  margin: 0 auto;
-  display: block;
-  }
-
-  .btn-primary1 {
-      color: #fff;
-      border-color: #a77b1e;
-      font-family: AvenirR;
-  }
-
-  .bot{
-    font-size: 20px;
-  }
-
-  .resaltado4 {
-      color: #ffffff;
-  }
-  .avenir-R {
-      font-family: AvenirR;
-  }
-  .garamondP{
-      font-family: AGaramondPro-Regular;
-  }
-  /* ----------------HEADER ----------------*/
-  header {
-      background-color: #ffffff;
-      width: 100%;
-      padding-top: 30px;
-      padding-bottom: 15px;
-  }
-  .imagen-header {
-      text-align: center;
-  }
-
-  .imagen{
-    width: 50%;
-  }
-  .primera-seccion {
-      width: 100%;
-      background-image: url("../img/MaryCielo-azul.jpg");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: 100%;
-      padding-top: 13px;
-      padding-bottom: 20px;
-      /*! height:  100px; */
-  }
-  .texto1 {
-      width: 100%;
-      margin: 0 auto;
-      text-align: center;
-      color: #ffffff;
-      letter-spacing: 1px;
-      line-height: 16px;
-      text-shadow: 0 2px 1px #0b0a0a4d;
-      padding-left: 5%;
-      padding-right: 5%;
-  }
-  .segunda-seccion {
-      background: #e8e8e8;
-      width: 100%;
-      padding-top: 20px;
-      padding-bottom: 30px;
-      text-align: center;
-  }
-  .texto2 {
-      color: #000000;
-      font-family: AGaramondPro-Regular;
-      text-align: center;
-      font-size: 14px;
-      width: 100%;
-      margin: 0 auto;
-      padding-left: 10%;
-      padding-right: 10%;
-  }
-  .botton {
-      font-family: AGaramondPro-Regular;
-      background: #a77b1e;
-      color: #ffffff;
-      border: none;
-      padding: 10px 40px;
-      font-size: 15px;
-      margin-top: 30px;
-      letter-spacing: 1px;
-      transition: all 500ms ease;
-  }
-
-  .botton1 {
-      font-family: AGaramondPro-Regular;
-      background: #a77b1e;
-      color: #ffffff;
-      border: none;
-      padding: 10px 30px;
-      font-size: 15px;
-      margin-top: 30px;
-      letter-spacing: 1px;
-      transition: all 500ms ease;
-  }
-
-  .botton2 {
-      font-family: AGaramondPro-Regular;
-      background: #a77b1e;
-      color: #ffffff;
-      border: none;
-      padding: 10px 40px;
-      font-size: 15px;
-      margin-top: 30px;
-      letter-spacing: 1px;
-      transition: all 500ms ease;
-  }
-  .botton:hover {
-      background: rgb(133, 97, 21);
-  }
-  .tercera-seccion {
-      width: 100%;
-      margin: 0 auto;
-      padding-top: 30px;
-      padding-bottom: 20px;
-  }
-  .pri {
-      width: 100%;
-      display: block;
-      margin: 0px;
-  }
-  .texto3 {
-      width: 100%;
-      text-align: center;
-      margin-bottom: 30px;
-  }
-  .texto31 {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 10px;
-}
-.resaltado31 {
-    color: #b29f5a;
-    font-family: AGaramondPro-Regular;
-}
-  .text {
-      font-family: MyriadPro-Regular;
-      font-size: 15px;
-      text-align: center;
-      color: #4c4c4c;
-      padding: 10px 0px 10px 0px;
-  }
-  .ban1 {
-      width: 100%;
-      display: block;
-      /*! align-items: center; */
-      padding-left: 5%;
-      padding-right: 5%;
-  }
-  .ban1 img {
-      width: 100%;
-      display: block;
-
-  }
-  .title {
-      margin-bottom: 30px;
-  }
-  .formulario1 {
-      background-color: #f3f3f3;
-      text-align: center;
-      padding-top: 30px;
-      padding-bottom: 30px;
-  }
-  .formulario2 {
-      width: 100%;
-      margin: 0 auto;
-  }
-  .formulario3 {
-      width: 90%;
-      margin: 0 auto;
-      display: block;
-  }
-  .formulario3 input {
-      width: 80%;
-      background: #ffffff;
-      height: 35px;
-      margin-bottom: 10px;
-      margin-right: 10px;
-      border: solid 1px #4c4c4c;
-  }
-  .formulario3 input:focus {
-      transition: all 500ms ease;
-      background: #f3f3f3;
-  }
-  .formulario3 select {
-      height: 35px;
-      border: solid 1px #4c4c4c;
-      transition: all 500ms ease;
-  }
-  ::-webkit-input-placeholder {
-      position: relative;
-      left: 10px;
-  }
-  :-moz-placeholder {
-      position: relative;
-      left: 10px;
-  }
-  ::-moz-placeholder {
-      position: relative;
-      left: 10px;
-  }
-  :-ms-input-placeholder {
-      position: relative;
-      left: 10px;
-  }
-  .input100 {
-      width: 80% !important;
-  }
-  .texto4 {
-      text-align: center;
-      width: 100%;
-      margin-bottom: 20px;
-  }
-  .cuarta-seccion {
-      width: 95%;
-      padding-top: 30px;
-      padding-bottom: 30px;
-      padding-left: 2%;
-  }
-  footer {
-      width: 100%;
-      background-color: #55646d;
-      text-align: center;
-      padding: 19px 0 18px;
-      font-family: AGaramondPro-Regular;
-  }
-  .texto5 {
-      color: #4c4c4c;
-      text-align: center;
-      font-size: 20px;
-      font-family: AGaramondPro-Regular;
-  }
-  .resaltado1 {
-      color: #001d58;
-      text-transform: uppercase;
-      font-family: TrajanPro-Regular;
-      font-size: 14px;
-  }
-  .text-exp {
-      margin: 2%;
-      font-family: MyriadPro-Regular;
-      font-size: 14px;
-      text-align: center;
-      padding-left: 23%;
-      padding-right: 11%;
-      padding-top: 16%;
-      color: #4c4c4c;
-  }
-  .resaltado2 {
-      color: #001d58;
-      text-transform: uppercase;
-      font-family: TrajanPro-Regular;
-      font-size: 20px;
-  }
-  .resaltado3 {
-      color: #b29f5a;
-      font-family: AGaramondPro-Regular;
-  }
-  .resaltado4:hover{
-    text-decoration: none;
-    color: #a77b1e;
-
-}
-  .resaltado5 {
-      font-family: AGaramondPro-Italic;
-  }
-  .quinta-seccion {
-      width: 100%;
-      padding-top: 3%;
-      padding-bottom: 7%;
-  }
-  .imges1 {
-      width: 80%;
-      display: flex;
-      padding-left: 17%;
-  }
-  .imges2 {
-      /* padding: 4%; */
-      margin: 16px;
-  }
-  .gen1 {
-      width: 60%;
-      display: flex;
-      padding-left: 12px;
-  }
-  .gen2 {
-      width: 85%;
-      display: flex;
-      padding-left: 12px;
-  }
-  .textos1 {
-      text-align: left;
-  }
-  .img-community {
-      width: 100%;
-      padding-left: 10%;
-      display: block;
-      padding-right: 10%;
-  }
-  .b1 {
-      padding-right: 0px;
-  }
-  .b2 {
-      width: 100%;
-  }
-  .b3 {
-      font-size: 16px;
-  }
-
-  .error {
-      background-color: #BC1010;
-      padding: 6px 12px;
-      border-radius: 4px;
-      color: white;
-      font-weight: bold;
-      position: absolute;
-      right: 20%;
-  }
-  .succes {
-      background-color: #10bc39;
-      padding: 6px 10px 6px;
-      border-radius: 4px;
-      color: white;
-      font-weight: bold;
-      position: absolute;
-      right: 16%;
-  }
+    @font-face {
+        font-family: 'AGaramondPro-Bold';
+        src: url("../fonts/AGaramondPro-Bold.otf");
+    }
+    @font-face {
+        font-family: 'AGaramondPro-BoldItalic';
+        src: url("../fonts/AGaramondPro-BoldItalic.otf");
+    }
+    @font-face {
+        font-family: 'AGaramondPro-Italic';
+        src: url("../fonts/AGaramondPro-Italic.otf");
+    }
+    @font-face {
+        font-family: 'AGaramondPro-Regular';
+        src: url("../fonts/AGaramondPro-Regular.otf");
+    }
+    @font-face {
+        font-family: 'MyriadPro-Light';
+        src: url("../fonts/MyriadPro-Light.otf");
+    }
+    @font-face {
+        font-family: 'MyriadPro-Regular';
+        src: url("../fonts/MyriadPro-Regular.otf");
+    }
+    @font-face {
+        font-family: 'TrajanPro-Bold';
+        src: url("../fonts/TrajanPro-Bold.otf");
+    }
+    @font-face {
+        font-family: 'TrajanPro-Regular';
+        src: url("../fonts/TrajanPro-Regular.otf");
+    }
+    @font-face {
+        font-family: 'AvenirR';
+        src: url("../fonts/AvenirRoman.otf");
+    }
+    .fs35 {
+        font-size: 15px;
+    }
+    .pied-video {
+        width: 100%;
+        height: 200px;
+    }
+    .video {
+        font-family: AvenirR;
+        width: 100%;
+        font-size: 1.5em;
+        padding-left: 39.5%
+    }
+    .video-player {
+        padding-left: 25%;
+        padding-right: 20%;
+        width: 100%;
+        margin: 0px;
+        padding-top: 0px;
+    }
+    .modal-content {
+        margin: 0 auto;
+        display: block;
+    }
+    .btn-primary1 {
+        color: #fff;
+        border-color: #a77b1e;
+        font-family: AvenirR;
+    }
+    .bot {
+        font-size: 20px;
+    }
+    .resaltado4 {
+        color: #ffffff;
+    }
+    .avenir-R {
+        font-family: AvenirR;
+    }
+    .garamondP {
+        font-family: AGaramondPro-Regular;
+    }
+    /* ----------------HEADER ----------------*/
+    header {
+        background-color: #ffffff;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+    .imagen-header {
+        text-align: center;
+    }
+    .imagen {
+        width: 50%;
+    }
+    .primera-seccion {
+        width: 100%;
+        background-image: url("../img/MaryCielo-azul.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        padding-top: 13px;
+        padding-bottom: 20px;
+        /*! height:  100px; */
+    }
+    .texto1 {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: #ffffff;
+        letter-spacing: 1px;
+        line-height: 16px;
+        text-shadow: 0 2px 1px #0b0a0a4d;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .segunda-seccion {
+        background: #e8e8e8;
+        width: 100%;
+        padding-top: 20px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .texto2 {
+        color: #000000;
+        font-family: AGaramondPro-Regular;
+        text-align: center;
+        font-size: 14px;
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .botton {
+        font-family: AGaramondPro-Regular;
+        background: #a77b1e;
+        color: #ffffff;
+        border: none;
+        padding: 10px 40px;
+        font-size: 15px;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        transition: all 500ms ease;
+    }
+    .botton1 {
+        font-family: AGaramondPro-Regular;
+        background: #a77b1e;
+        color: #ffffff;
+        border: none;
+        padding: 10px 30px;
+        font-size: 15px;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        transition: all 500ms ease;
+    }
+    .botton2 {
+        font-family: AGaramondPro-Regular;
+        background: #a77b1e;
+        color: #ffffff;
+        border: none;
+        padding: 10px 40px;
+        font-size: 15px;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        transition: all 500ms ease;
+    }
+    .botton:hover {
+        background: rgb(133, 97, 21);
+    }
+    .tercera-seccion {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .pri {
+        width: 100%;
+        display: block;
+        margin: 0px;
+    }
+    .texto3 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .texto31 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .resaltado31 {
+        color: #b29f5a;
+        font-family: AGaramondPro-Regular;
+    }
+    .text {
+        font-family: MyriadPro-Regular;
+        font-size: 15px;
+        text-align: center;
+        color: #4c4c4c;
+        padding: 10px 0px 10px 0px;
+    }
+    .ban1 {
+        width: 100%;
+        display: block;
+        /*! align-items: center; */
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .ban1 img {
+        width: 100%;
+        display: block;
+    }
+    .title {
+        margin-bottom: 30px;
+    }
+    .formulario1 {
+        background-color: #f3f3f3;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .formulario2 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .formulario3 {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+    .formulario3 input {
+        width: 80%;
+        background: #ffffff;
+        height: 35px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        border: solid 1px #4c4c4c;
+    }
+    .formulario3 input:focus {
+        transition: all 500ms ease;
+        background: #f3f3f3;
+    }
+    .formulario3 select {
+        height: 35px;
+        border: solid 1px #4c4c4c;
+        transition: all 500ms ease;
+    }
+    ::-webkit-input-placeholder {
+        position: relative;
+        left: 10px;
+    }
+    :-moz-placeholder {
+        position: relative;
+        left: 10px;
+    }
+    ::-moz-placeholder {
+        position: relative;
+        left: 10px;
+    }
+    :-ms-input-placeholder {
+        position: relative;
+        left: 10px;
+    }
+    .input100 {
+        width: 80% !important;
+    }
+    .texto4 {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .cuarta-seccion {
+        width: 95%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 2%;
+    }
+    footer {
+        width: 100%;
+        background-color: #55646d;
+        text-align: center;
+        padding: 19px 0 18px;
+        font-family: AGaramondPro-Regular;
+    }
+    .texto5 {
+        color: #4c4c4c;
+        text-align: center;
+        font-size: 20px;
+        font-family: AGaramondPro-Regular;
+    }
+    .resaltado1 {
+        color: #001d58;
+        text-transform: uppercase;
+        font-family: TrajanPro-Regular;
+        font-size: 14px;
+    }
+    .text-exp {
+        margin: 2%;
+        font-family: MyriadPro-Regular;
+        font-size: 14px;
+        text-align: center;
+        padding-left: 23%;
+        padding-right: 11%;
+        padding-top: 16%;
+        color: #4c4c4c;
+    }
+    .resaltado2 {
+        color: #001d58;
+        text-transform: uppercase;
+        font-family: TrajanPro-Regular;
+        font-size: 20px;
+    }
+    .resaltado3 {
+        color: #b29f5a;
+        font-family: AGaramondPro-Regular;
+    }
+    .resaltado4:hover {
+        text-decoration: none;
+        color: #a77b1e;
+    }
+    .resaltado5 {
+        font-family: AGaramondPro-Italic;
+    }
+    .quinta-seccion {
+        width: 100%;
+        padding-top: 3%;
+        padding-bottom: 7%;
+    }
+    .imges1 {
+        width: 80%;
+        display: flex;
+        padding-left: 17%;
+    }
+    .imges2 {
+        /* padding: 4%; */
+        margin: 16px;
+    }
+    .gen1 {
+        width: 60%;
+        display: flex;
+        padding-left: 12px;
+    }
+    .gen2 {
+        width: 85%;
+        display: flex;
+        padding-left: 12px;
+    }
+    .textos1 {
+        text-align: left;
+    }
+    .img-community {
+        width: 100%;
+        padding-left: 10%;
+        display: block;
+        padding-right: 10%;
+    }
+    .b1 {
+        padding-right: 0px;
+    }
+    .b2 {
+        width: 100%;
+    }
+    .b3 {
+        font-size: 16px;
+    }
+    .error {
+        background-color: #BC1010;
+        padding: 6px 12px;
+        border-radius: 4px;
+        color: white;
+        font-weight: bold;
+        position: absolute;
+        right: 20%;
+    }
+    .succes {
+        background-color: #10bc39;
+        padding: 6px 10px 6px;
+        border-radius: 4px;
+        color: white;
+        font-weight: bold;
+        position: absolute;
+        right: 16%;
+    }
 }
 
 @media only screen and (min-width: 321px) and (max-width: 360px) {
-  @font-face {
-      font-family: 'AGaramondPro-Bold';
-      src: url("../fonts/AGaramondPro-Bold.otf");
-  }
-  @font-face {
-      font-family: 'AGaramondPro-BoldItalic';
-      src: url("../fonts/AGaramondPro-BoldItalic.otf");
-  }
-  @font-face {
-      font-family: 'AGaramondPro-Italic';
-      src: url("../fonts/AGaramondPro-Italic.otf");
-  }
-  @font-face {
-      font-family: 'AGaramondPro-Regular';
-      src: url("../fonts/AGaramondPro-Regular.otf");
-  }
-  @font-face {
-      font-family: 'MyriadPro-Light';
-      src: url("../fonts/MyriadPro-Light.otf");
-  }
-  @font-face {
-      font-family: 'MyriadPro-Regular';
-      src: url("../fonts/MyriadPro-Regular.otf");
-  }
-  @font-face {
-      font-family: 'TrajanPro-Bold';
-      src: url("../fonts/TrajanPro-Bold.otf");
-  }
-  @font-face {
-      font-family: 'TrajanPro-Regular';
-      src: url("../fonts/TrajanPro-Regular.otf");
-  }
-  @font-face {
-      font-family: 'AvenirR';
-      src: url("../fonts/AvenirRoman.otf");
-  }
-  .fs35 {
-      font-size: 15px;
-  }
-
-  .pied-video{
-    width: 100%;
-    height: 200px;
-  }
-
-  .video{
-    font-family: AvenirR;
-    width: 100%;
-    font-size: 1.5em;
-    padding-left: 39.5%
-  }
-
-  .video-player{
-   margin: 0px;
-   padding-left: 29%;
-   padding-right: 44%;
-  }
-  .modal-content{
-  margin: 0 auto;
-  display: block;
-  }
-
-  .btn-primary1 {
-      color: #fff;
-      border-color: #a77b1e;
-      font-family: AvenirR;
-  }
-
-  .bot{
-    font-size: 20px;
-  }
-
-  .resaltado4 {
-      color: #ffffff;
-  }
-  .avenir-R {
-      font-family: AvenirR;
-  }
-  .garamondP{
-      font-family: AGaramondPro-Regular;
-  }
-  /* ----------------HEADER ----------------*/
-  header {
-      background-color: #ffffff;
-      width: 100%;
-      padding-top: 30px;
-      padding-bottom: 15px;
-  }
-  .imagen-header {
-      text-align: center;
-  }
-
-  .imagen{
-    width: 45%;
-  }
-  .primera-seccion {
-      width: 100%;
-      background-image: url("../img/MaryCielo-azul.jpg");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: 100%;
-      padding-top: 60px;
-      padding-bottom: 120px;
-      height:  100px;
-  }
-  .texto1 {
-      width: 100%;
-      margin: 0 auto;
-      text-align: center;
-      color: #ffffff;
-      letter-spacing: 1px;
-      line-height: 11px;
-      text-shadow: 0 2px 1px #0b0a0a4d;
-      padding-left: 5%;
-      padding-right: 5%;
-  }
-  .segunda-seccion {
-      background: #e8e8e8;
-      width: 100%;
-      padding-top: 30px;
-      padding-bottom: 30px;
-      text-align: center;
-  }
-  .texto2 {
-      color: #000000;
-      font-family: AGaramondPro-Regular;
-      text-align: center;
-      font-size: 15px;
-      width: 100%;
-      margin: 0 auto;
-      padding-left: 10%;
-      padding-right: 10%;
-  }
-  .botton {
-      font-family: AGaramondPro-Regular;
-      background: #a77b1e;
-      color: #ffffff;
-      border: none;
-      padding: 10px 40px;
-      font-size: 20px;
-      margin-top: 30px;
-      letter-spacing: 1px;
-      transition: all 500ms ease;
-  }
-
-  .botton1 {
-      font-family: AGaramondPro-Regular;
-      background: #a77b1e;
-      color: #ffffff;
-      border: none;
-      padding: 10px 40px;
-      font-size: 15px;
-      margin-top: 30px;
-      letter-spacing: 1px;
-      transition: all 500ms ease;
-  }
-
-  .botton2 {
-      font-family: AGaramondPro-Regular;
-      background: #a77b1e;
-      color: #ffffff;
-      border: none;
-      padding: 10px 40px;
-      font-size: 20px;
-      margin-top: 30px;
-      letter-spacing: 1px;
-      transition: all 500ms ease;
-  }
-  .botton:hover {
-      background: rgb(133, 97, 21);
-  }
-  .tercera-seccion {
-      width: 100%;
-      margin: 0 auto;
-      padding-top: 70px;
-      padding-bottom: 20px;
-  }
-  .pri {
-      width: 100%;
-      display: block;
-      margin: 2px;
-  }
-  .texto3 {
-      width: 100%;
-      text-align: center;
-      margin-bottom: 30px;
-  }
-  .texto31 {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 10px;
-}
-.resaltado31 {
-    color: #b29f5a;
-    font-family: AGaramondPro-Regular;
-}
-  .text {
-      font-family: MyriadPro-Regular;
-      font-size: 15px;
-      text-align: center;
-      color: #4c4c4c;
-      padding: 10px 0px 10px 0px;
-  }
-  .ban1 {
-      width: 100%;
-      display: block;
-      /*! align-items: center; */
-      padding-left: 20%;
-      padding-right: 20%;
-  }
-  .ban1 img {
-      width: 100%;
-      display: block;
-
-  }
-  .title {
-      margin-bottom: 30px;
-  }
-  .formulario1 {
-      background-color: #f3f3f3;
-      text-align: center;
-      padding-top: 30px;
-      padding-bottom: 30px;
-  }
-  .formulario2 {
-      width: 100%;
-      margin: 0 auto;
-  }
-  .formulario3 {
-      width: 90%;
-      margin: 0 auto;
-      display: block;
-  }
-  .formulario3 input {
-      width: 80%;
-      background: #ffffff;
-      height: 35px;
-      margin-bottom: 10px;
-      margin-right: 10px;
-      border: solid 1px #4c4c4c;
-  }
-  .formulario3 input:focus {
-      transition: all 500ms ease;
-      background: #f3f3f3;
-  }
-  .formulario3 select {
-      height: 35px;
-      border: solid 1px #4c4c4c;
-      transition: all 500ms ease;
-  }
-  ::-webkit-input-placeholder {
-      position: relative;
-      left: 10px;
-  }
-  :-moz-placeholder {
-      position: relative;
-      left: 10px;
-  }
-  ::-moz-placeholder {
-      position: relative;
-      left: 10px;
-  }
-  :-ms-input-placeholder {
-      position: relative;
-      left: 10px;
-  }
-  .input100 {
-      width: 80% !important;
-  }
-  .texto4 {
-      text-align: center;
-      width: 100%;
-      margin-bottom: 20px;
-  }
-  .cuarta-seccion {
-      width: 95%;
-      padding-top: 30px;
-      padding-bottom: 30px;
-      padding-left: 2%;
-  }
-  footer {
-      width: 100%;
-      background-color: #55646d;
-      text-align: center;
-      padding: 19px 0 18px;
-      font-family: AGaramondPro-Regular;
-  }
-  .texto5 {
-      color: #4c4c4c;
-      text-align: center;
-      font-size: 21px;
-      font-family: AGaramondPro-Regular;
-  }
-  .resaltado1 {
-      color: #001d58;
-      text-transform: uppercase;
-      font-family: TrajanPro-Regular;
-      font-size: 16px;
-  }
-  .text-exp {
-      margin: 2%;
-      font-family: MyriadPro-Regular;
-      font-size: 14px;
-      text-align: center;
-      padding-left: 23%;
-      padding-right: 11%;
-      padding-top: 16%;
-      color: #4c4c4c;
-  }
-  .resaltado2 {
-      color: #001d58;
-      text-transform: uppercase;
-      font-family: TrajanPro-Regular;
-      font-size: 20px;
-  }
-  .resaltado3 {
-      color: #b29f5a;
-      font-family: AGaramondPro-Regular;
-  }
-  .resaltado4:hover{
-    text-decoration: none;
-    color: #a77b1e;
-
-}
-  .resaltado5 {
-      font-family: AGaramondPro-Italic;
-  }
-  .quinta-seccion {
-      width: 100%;
-      padding-top: 3%;
-      padding-bottom: 7%;
-  }
-  .imges1 {
-      width: 80%;
-      display: flex;
-      padding-left: 17%;
-  }
-  .imges2 {
-      /* padding: 4%; */
-      margin: 16px;
-  }
-  .gen1 {
-      width: 60%;
-      display: flex;
-      padding-left: 12px;
-  }
-  .gen2 {
-      width: 85%;
-      display: flex;
-      padding-left: 12px;
-  }
-  .textos1 {
-      text-align: left;
-  }
-  .img-community {
-      width: 100%;
-      padding-left: 20%;
-      display: block;
-      padding-right: 20%;
-  }
-  /*.b1 {
+    @font-face {
+        font-family: 'AGaramondPro-Bold';
+        src: url("../fonts/AGaramondPro-Bold.otf");
+    }
+    @font-face {
+        font-family: 'AGaramondPro-BoldItalic';
+        src: url("../fonts/AGaramondPro-BoldItalic.otf");
+    }
+    @font-face {
+        font-family: 'AGaramondPro-Italic';
+        src: url("../fonts/AGaramondPro-Italic.otf");
+    }
+    @font-face {
+        font-family: 'AGaramondPro-Regular';
+        src: url("../fonts/AGaramondPro-Regular.otf");
+    }
+    @font-face {
+        font-family: 'MyriadPro-Light';
+        src: url("../fonts/MyriadPro-Light.otf");
+    }
+    @font-face {
+        font-family: 'MyriadPro-Regular';
+        src: url("../fonts/MyriadPro-Regular.otf");
+    }
+    @font-face {
+        font-family: 'TrajanPro-Bold';
+        src: url("../fonts/TrajanPro-Bold.otf");
+    }
+    @font-face {
+        font-family: 'TrajanPro-Regular';
+        src: url("../fonts/TrajanPro-Regular.otf");
+    }
+    @font-face {
+        font-family: 'AvenirR';
+        src: url("../fonts/AvenirRoman.otf");
+    }
+    .fs35 {
+        font-size: 15px;
+    }
+    .pied-video {
+        width: 100%;
+        height: 200px;
+    }
+    .video {
+        font-family: AvenirR;
+        width: 100%;
+        font-size: 1.5em;
+        padding-left: 39.5%
+    }
+    .video-player {
+        margin: 0px;
+        padding-left: 29%;
+        padding-right: 44%;
+    }
+    .modal-content {
+        margin: 0 auto;
+        display: block;
+    }
+    .btn-primary1 {
+        color: #fff;
+        border-color: #a77b1e;
+        font-family: AvenirR;
+    }
+    .bot {
+        font-size: 20px;
+    }
+    .resaltado4 {
+        color: #ffffff;
+    }
+    .avenir-R {
+        font-family: AvenirR;
+    }
+    .garamondP {
+        font-family: AGaramondPro-Regular;
+    }
+    /* ----------------HEADER ----------------*/
+    header {
+        background-color: #ffffff;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+    .imagen-header {
+        text-align: center;
+    }
+    .imagen {
+        width: 45%;
+    }
+    .primera-seccion {
+        width: 100%;
+        background-image: url("../img/MaryCielo-azul.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        padding-top: 60px;
+        padding-bottom: 120px;
+        height: 100px;
+    }
+    .texto1 {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: #ffffff;
+        letter-spacing: 1px;
+        line-height: 11px;
+        text-shadow: 0 2px 1px #0b0a0a4d;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .segunda-seccion {
+        background: #e8e8e8;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .texto2 {
+        color: #000000;
+        font-family: AGaramondPro-Regular;
+        text-align: center;
+        font-size: 15px;
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .botton {
+        font-family: AGaramondPro-Regular;
+        background: #a77b1e;
+        color: #ffffff;
+        border: none;
+        padding: 10px 40px;
+        font-size: 20px;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        transition: all 500ms ease;
+    }
+    .botton1 {
+        font-family: AGaramondPro-Regular;
+        background: #a77b1e;
+        color: #ffffff;
+        border: none;
+        padding: 10px 40px;
+        font-size: 15px;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        transition: all 500ms ease;
+    }
+    .botton2 {
+        font-family: AGaramondPro-Regular;
+        background: #a77b1e;
+        color: #ffffff;
+        border: none;
+        padding: 10px 40px;
+        font-size: 20px;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        transition: all 500ms ease;
+    }
+    .botton:hover {
+        background: rgb(133, 97, 21);
+    }
+    .tercera-seccion {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 70px;
+        padding-bottom: 20px;
+    }
+    .pri {
+        width: 100%;
+        display: block;
+        margin: 2px;
+    }
+    .texto3 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .texto31 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .resaltado31 {
+        color: #b29f5a;
+        font-family: AGaramondPro-Regular;
+    }
+    .text {
+        font-family: MyriadPro-Regular;
+        font-size: 15px;
+        text-align: center;
+        color: #4c4c4c;
+        padding: 10px 0px 10px 0px;
+    }
+    .ban1 {
+        width: 100%;
+        display: block;
+        /*! align-items: center; */
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .ban1 img {
+        width: 100%;
+        display: block;
+    }
+    .title {
+        margin-bottom: 30px;
+    }
+    .formulario1 {
+        background-color: #f3f3f3;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .formulario2 {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .formulario3 {
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+    }
+    .formulario3 input {
+        width: 80%;
+        background: #ffffff;
+        height: 35px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        border: solid 1px #4c4c4c;
+    }
+    .formulario3 input:focus {
+        transition: all 500ms ease;
+        background: #f3f3f3;
+    }
+    .formulario3 select {
+        height: 35px;
+        border: solid 1px #4c4c4c;
+        transition: all 500ms ease;
+    }
+    ::-webkit-input-placeholder {
+        position: relative;
+        left: 10px;
+    }
+    :-moz-placeholder {
+        position: relative;
+        left: 10px;
+    }
+    ::-moz-placeholder {
+        position: relative;
+        left: 10px;
+    }
+    :-ms-input-placeholder {
+        position: relative;
+        left: 10px;
+    }
+    .input100 {
+        width: 80% !important;
+    }
+    .texto4 {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .cuarta-seccion {
+        width: 95%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 2%;
+    }
+    footer {
+        width: 100%;
+        background-color: #55646d;
+        text-align: center;
+        padding: 19px 0 18px;
+        font-family: AGaramondPro-Regular;
+    }
+    .texto5 {
+        color: #4c4c4c;
+        text-align: center;
+        font-size: 21px;
+        font-family: AGaramondPro-Regular;
+    }
+    .resaltado1 {
+        color: #001d58;
+        text-transform: uppercase;
+        font-family: TrajanPro-Regular;
+        font-size: 16px;
+    }
+    .text-exp {
+        margin: 2%;
+        font-family: MyriadPro-Regular;
+        font-size: 14px;
+        text-align: center;
+        padding-left: 23%;
+        padding-right: 11%;
+        padding-top: 16%;
+        color: #4c4c4c;
+    }
+    .resaltado2 {
+        color: #001d58;
+        text-transform: uppercase;
+        font-family: TrajanPro-Regular;
+        font-size: 20px;
+    }
+    .resaltado3 {
+        color: #b29f5a;
+        font-family: AGaramondPro-Regular;
+    }
+    .resaltado4:hover {
+        text-decoration: none;
+        color: #a77b1e;
+    }
+    .resaltado5 {
+        font-family: AGaramondPro-Italic;
+    }
+    .quinta-seccion {
+        width: 100%;
+        padding-top: 3%;
+        padding-bottom: 7%;
+    }
+    .imges1 {
+        width: 80%;
+        display: flex;
+        padding-left: 17%;
+    }
+    .imges2 {
+        /* padding: 4%; */
+        margin: 16px;
+    }
+    .gen1 {
+        width: 60%;
+        display: flex;
+        padding-left: 12px;
+    }
+    .gen2 {
+        width: 85%;
+        display: flex;
+        padding-left: 12px;
+    }
+    .textos1 {
+        text-align: left;
+    }
+    .img-community {
+        width: 100%;
+        padding-left: 20%;
+        display: block;
+        padding-right: 20%;
+    }
+    /*.b1 {
   } */
-  .b2 {
-      width: 216px;
-  }
-  .b3 {
-      font-size: 12px;
-      padding-bottom: 10px;
-  }
-
-  .error {
-      background-color: #BC1010;
-      padding: 6px 12px;
-      border-radius: 4px;
-      color: white;
-      font-weight: bold;
-      position: absolute;
-      right: 20%;
-  }
-  .succes {
-      background-color: #10bc39;
-      padding: 6px 10px 6px;
-      border-radius: 4px;
-      color: white;
-      font-weight: bold;
-      position: absolute;
-      right: 16%;
-  }
+    .b2 {
+        width: 216px;
+    }
+    .b3 {
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+    .error {
+        background-color: #BC1010;
+        padding: 6px 12px;
+        border-radius: 4px;
+        color: white;
+        font-weight: bold;
+        position: absolute;
+        right: 20%;
+    }
+    .succes {
+        background-color: #10bc39;
+        padding: 6px 10px 6px;
+        border-radius: 4px;
+        color: white;
+        font-weight: bold;
+        position: absolute;
+        right: 16%;
+    }
 }
 
-
-  @media only screen and (max-width: 375px) and (min-width: 361px) {
+@media only screen and (max-width: 375px) and (min-width: 361px) {
     /* ----------------CONFIGURACIONES GENERALES ----------------*/
     @font-face {
         font-family: 'AGaramondPro-Bold';
@@ -1223,46 +1259,40 @@ footer {
     .fs35 {
         font-size: 15px;
     }
-
-    .pied-video{
-      width: 100%;
-      height: 200px;
+    .pied-video {
+        width: 100%;
+        height: 200px;
     }
-
-    .video{
-      font-family: AvenirR;
-      width: 100%;
-      font-size: 1.5em;
-      padding-left: 39.5%
+    .video {
+        font-family: AvenirR;
+        width: 100%;
+        font-size: 1.5em;
+        padding-left: 39.5%
     }
-
-    .video-player{
-     margin: 0px;
-     padding-left: 30%;
-     padding-right: 27%;
+    .video-player {
+        margin: 0px;
+        padding-left: 30%;
+        padding-right: 27%;
     }
-    .modal-content{
-    margin: 0 auto;
-    display: block;
+    .modal-content {
+        margin: 0 auto;
+        display: block;
     }
-
     .btn-primary1 {
         color: #fff;
         border-color: #a77b1e;
         font-family: AvenirR;
     }
-
-    .bot{
-      font-size: 20px;
+    .bot {
+        font-size: 20px;
     }
-
     .resaltado4 {
         color: #ffffff;
     }
     .avenir-R {
         font-family: AvenirR;
     }
-    .garamondP{
+    .garamondP {
         font-family: AGaramondPro-Regular;
     }
     /* ----------------HEADER ----------------*/
@@ -1275,9 +1305,8 @@ footer {
     .imagen-header {
         text-align: center;
     }
-
-    .imagen{
-      width: 45%;
+    .imagen {
+        width: 45%;
     }
     .primera-seccion {
         width: 100%;
@@ -1287,7 +1316,7 @@ footer {
         background-size: 100%;
         padding-top: 60px;
         padding-bottom: 120px;
-        height:  100px;
+        height: 100px;
     }
     .texto1 {
         width: 100%;
@@ -1328,7 +1357,6 @@ footer {
         letter-spacing: 1px;
         transition: all 500ms ease;
     }
-
     .botton1 {
         font-family: AGaramondPro-Regular;
         background: #a77b1e;
@@ -1340,7 +1368,6 @@ footer {
         letter-spacing: 1px;
         transition: all 500ms ease;
     }
-
     .botton2 {
         font-family: AGaramondPro-Regular;
         background: #a77b1e;
@@ -1397,7 +1424,6 @@ footer {
     .ban1 img {
         width: 100%;
         display: block;
-
     }
     .title {
         margin-bottom: 30px;
@@ -1503,10 +1529,9 @@ footer {
         color: #b29f5a;
         font-family: AGaramondPro-Regular;
     }
-    .resaltado4:hover{
+    .resaltado4:hover {
         text-decoration: none;
         color: #a77b1e;
-    
     }
     .resaltado5 {
         font-family: AGaramondPro-Italic;
@@ -1554,7 +1579,6 @@ footer {
         font-size: 15px;
         padding-bottom: 10px;
     }
-
     .error {
         background-color: #BC1010;
         padding: 6px 12px;
@@ -1573,9 +1597,9 @@ footer {
         position: absolute;
         right: 16%;
     }
-  }
+}
 
-  @media only screen and (max-width: 414px) and (min-width: 376px) {
+@media only screen and (max-width: 414px) and (min-width: 376px) {
     /* ----------------CONFIGURACIONES GENERALES ----------------*/
     @font-face {
         font-family: 'AGaramondPro-Bold';
@@ -1616,46 +1640,40 @@ footer {
     .fs35 {
         font-size: 15px;
     }
-
-    .pied-video{
-      width: 100%;
-      height: 200px;
+    .pied-video {
+        width: 100%;
+        height: 200px;
     }
-
-    .video{
-      font-family: AvenirR;
-      width: 100%;
-      font-size: 1.5em;
-      padding-left: 39.5%
+    .video {
+        font-family: AvenirR;
+        width: 100%;
+        font-size: 1.5em;
+        padding-left: 39.5%
     }
-
-    .video-player{
-     margin: 0px;
-     padding-left: 30%;
-     padding-right: 27%;
+    .video-player {
+        margin: 0px;
+        padding-left: 30%;
+        padding-right: 27%;
     }
-    .modal-content{
-    margin: 0 auto;
-    display: block;
+    .modal-content {
+        margin: 0 auto;
+        display: block;
     }
-
     .btn-primary1 {
         color: #fff;
         border-color: #a77b1e;
         font-family: AvenirR;
     }
-
-    .bot{
-      font-size: 20px;
+    .bot {
+        font-size: 20px;
     }
-
     .resaltado4 {
         color: #ffffff;
     }
     .avenir-R {
         font-family: AvenirR;
     }
-    .garamondP{
+    .garamondP {
         font-family: AGaramondPro-Regular;
     }
     /* ----------------HEADER ----------------*/
@@ -1668,9 +1686,8 @@ footer {
     .imagen-header {
         text-align: center;
     }
-
-    .imagen{
-      width: 45%;
+    .imagen {
+        width: 45%;
     }
     .primera-seccion {
         width: 100%;
@@ -1680,7 +1697,7 @@ footer {
         background-size: 100%;
         padding-top: 60px;
         padding-bottom: 120px;
-        height:  100px;
+        height: 100px;
     }
     .texto1 {
         width: 100%;
@@ -1721,7 +1738,6 @@ footer {
         letter-spacing: 1px;
         transition: all 500ms ease;
     }
-
     .botton1 {
         font-family: AGaramondPro-Regular;
         background: #a77b1e;
@@ -1733,7 +1749,6 @@ footer {
         letter-spacing: 1px;
         transition: all 500ms ease;
     }
-
     .botton2 {
         font-family: AGaramondPro-Regular;
         background: #a77b1e;
@@ -1790,7 +1805,6 @@ footer {
     .ban1 img {
         width: 100%;
         display: block;
-
     }
     .title {
         margin-bottom: 30px;
@@ -1896,10 +1910,9 @@ footer {
         color: #b29f5a;
         font-family: AGaramondPro-Regular;
     }
-    .resaltado4:hover{
+    .resaltado4:hover {
         text-decoration: none;
         color: #a77b1e;
-    
     }
     .resaltado5 {
         font-family: AGaramondPro-Italic;
@@ -1947,7 +1960,6 @@ footer {
         font-size: 15px;
         padding-bottom: 10px;
     }
-
     .error {
         background-color: #BC1010;
         padding: 6px 12px;
@@ -1966,788 +1978,765 @@ footer {
         position: absolute;
         right: 16%;
     }
-  }
-
+}
 
 @media only screen and (min-width: 415px) and (max-width: 480px) {
-  @font-face {
-      font-family: 'AGaramondPro-Bold';
-      src: url("../fonts/AGaramondPro-Bold.otf");
-  }
-  @font-face {
-      font-family: 'AGaramondPro-BoldItalic';
-      src: url("../fonts/AGaramondPro-BoldItalic.otf");
-  }
-  @font-face {
-      font-family: 'AGaramondPro-Italic';
-      src: url("../fonts/AGaramondPro-Italic.otf");
-  }
-  @font-face {
-      font-family: 'AGaramondPro-Regular';
-      src: url("../fonts/AGaramondPro-Regular.otf");
-  }
-  @font-face {
-      font-family: 'MyriadPro-Light';
-      src: url("../fonts/MyriadPro-Light.otf");
-  }
-  @font-face {
-      font-family: 'MyriadPro-Regular';
-      src: url("../fonts/MyriadPro-Regular.otf");
-  }
-  @font-face {
-      font-family: 'TrajanPro-Bold';
-      src: url("../fonts/TrajanPro-Bold.otf");
-  }
-  @font-face {
-      font-family: 'TrajanPro-Regular';
-      src: url("../fonts/TrajanPro-Regular.otf");
-  }
-  @font-face {
-      font-family: 'AvenirR';
-      src: url("../fonts/AvenirRoman.otf");
-  }
-  .fs35 {
-      font-size: 24px;
-  }
-
-  .pied-video{
-    width: 100%;
-    height: 300px;
-  }
-
-  .video{
-    font-family: AvenirR;
-    width: 100%;
-    font-size: 1.5em;
-    padding-left: 39.5%
-  }
-
-  .video-player{
-   padding-left: 34%;
-   margin: 0px;
-   padding-right: 43%;
-   padding-top: 4%;
-   width: 100%;
-  }
-  .modal-content{
-  margin: 0 auto;
-  display: block;
-  }
-
-  .btn-primary1 {
-      color: #fff;
-      border-color: #a77b1e;
-      font-family: AvenirR;
-  }
-
-  .bot{
-    font-size: 20px;
-  }
-
-  .resaltado4 {
-      color: #ffffff;
-  }
-  .avenir-R {
-      font-family: AvenirR;
-  }
-  .garamondP{
-      font-family: AGaramondPro-Regular;
-  }
-  /* ----------------HEADER ----------------*/
-  header {
-      background-color: #ffffff;
-      width: 100%;
-      padding-top: 30px;
-      padding-bottom: 15px;
-  }
-  .imagen-header {
-      text-align: center;
-  }
-
-  .imagen{
-    width: 35%;
-  }
-  .primera-seccion {
-      width: 100%;
-      background-image: url("../img/MaryCielo-azul.jpg");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: 100%;
-      padding-top: 60px;
-      padding-bottom: 178px;
-      height:  100px;
-  }
-  .texto1 {
-      width: 100%;
-      margin: 0 auto;
-      text-align: center;
-      color: #ffffff;
-      letter-spacing: 1px;
-      line-height: 17px;
-      text-shadow: 0 2px 1px #0b0a0a4d;
-      padding-left: 10%;
-      padding-right: 10%;
-  }
-  .segunda-seccion {
-      background: #e8e8e8;
-      width: 100%;
-      padding-top: 30px;
-      padding-bottom: 30px;
-      text-align: center;
-  }
-  .texto2 {
-      color: #000000;
-      font-family: AGaramondPro-Regular;
-      text-align: center;
-      font-size: 16px;
-      width: 100%;
-      margin: 0 auto;
-      padding-left: 20%;
-      padding-right: 20%;
-  }
-  .botton {
-      font-family: AGaramondPro-Regular;
-      background: #a77b1e;
-      color: #ffffff;
-      border: none;
-      padding: 10px 40px;
-      font-size: 20px;
-      margin-top: 30px;
-      letter-spacing: 1px;
-      transition: all 500ms ease;
-  }
-
-  .botton1 {
-      font-family: AGaramondPro-Regular;
-      background: #a77b1e;
-      color: #ffffff;
-      border: none;
-      padding: 10px 40px;
-      font-size: 20px;
-      margin-top: 30px;
-      letter-spacing: 1px;
-      transition: all 500ms ease;
-  }
-
-  .botton2 {
-      font-family: AGaramondPro-Regular;
-      background: #a77b1e;
-      color: #ffffff;
-      border: none;
-      padding: 10px 40px;
-      font-size: 15px;
-      margin-top: 30px;
-      letter-spacing: 1px;
-      transition: all 500ms ease;
-  }
-  .botton:hover {
-      background: rgb(133, 97, 21);
-  }
-  .tercera-seccion {
-      width: 100%;
-      margin: 0 auto;
-      padding-top: 70px;
-      padding-bottom: 20px;
-  }
-  .pri {
-      width: 100%;
-      display: block;
-      margin: 2px;
-  }
-  .texto3 {
-      width: 100%;
-      text-align: center;
-      margin-bottom: 30px;
-  }
-  .texto31 {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 10px;
-}
-.resaltado31 {
-    color: #b29f5a;
-    font-family: AGaramondPro-Regular;
-}
-  .text {
-      font-family: MyriadPro-Regular;
-      font-size: 15px;
-      text-align: center;
-      color: #4c4c4c;
-      padding: 10px 0px 10px 0px;
-  }
-  .ban1 {
-      width: 100%;
-      display: block;
-      padding-left: 25%;
-      padding-right: 25%;
-  }
-  .ban1 img {
-      width: 100%;
-      display: block;
-  }
-  .title {
-      margin-bottom: 30px;
-  }
-  .formulario1 {
-      background-color: #f3f3f3;
-      text-align: center;
-      padding-top: 40px;
-      padding-bottom: 40px;
-  }
-  .formulario2 {
-      width: 100%;
-      margin: 0px auto;
-  }
-  .formulario3 {
-      width: 70%;
-      margin: 0 auto;
-      display: flex;
-  }
-  .formulario3 input {
-      width: 100%;
-      background: #ffffff;
-      height: 35px;
-      margin-bottom: 10px;
-      margin-right: 10px;
-      border: solid 1px #4c4c4c;
-  }
-  .formulario3 input:focus {
-      transition: all 500ms ease;
-      background: #f3f3f3;
-  }
-  .formulario3 select {
-      height: 35px;
-      border: solid 1px #4c4c4c;
-      transition: all 500ms ease;
-  }
-  ::-webkit-input-placeholder {
-      position: relative;
-      left: 10px;
-  }
-  :-moz-placeholder {
-      position: relative;
-      left: 10px;
-  }
-  ::-moz-placeholder {
-      position: relative;
-      left: 10px;
-  }
-  :-ms-input-placeholder {
-      position: relative;
-      left: 10px;
-  }
-  .input100 {
-      width: 100%!important;
-  }
-  .texto4 {
-      text-align: center;
-      width: 100%;
-      margin-bottom: 20px;
-  }
-  .cuarta-seccion {
-      width: 100%;
-      padding-top: 30px;
-      padding-bottom: 30px;
-  }
-  footer {
-      width: 100%;
-      background-color: #55646d;
-      text-align: center;
-      padding: 19px 0 18px;
-      font-family: AGaramondPro-Regular;
-  }
-  .texto5 {
-      color: #4c4c4c;
-      text-align: center;
-      font-size: 21px;
-      font-family: AGaramondPro-Regular;
-  }
-  .resaltado1 {
-      color: #001d58;
-      text-transform: uppercase;
-      font-family: TrajanPro-Regular;
-      font-size: 20px;
-  }
-  .text-exp {
-      margin: 2%;
-      font-family: MyriadPro-Regular;
-      font-size: 14px;
-      text-align: center;
-      padding-left: 23%;
-      padding-right: 11%;
-      padding-top: 16%;
-      color: #4c4c4c;
-  }
-  .resaltado2 {
-      color: #001d58;
-      text-transform: uppercase;
-      font-family: TrajanPro-Regular;
-      font-size: 20px;
-  }
-  .resaltado3 {
-      color: #b29f5a;
-      font-family: AGaramondPro-Regular;
-  }
-  .resaltado4:hover{
-    text-decoration: none;
-    color: #a77b1e;
-
-}
-  .resaltado5 {
-      font-family: AGaramondPro-Italic;
-  }
-  .quinta-seccion {
-      width: 100%;
-      padding-top: 10%;
-      padding-bottom: 10%;
-  }
-  .imges1 {
-      width: 80%;
-      display: flex;
-      padding-left: 17%;
-  }
-  .imges2 {
-      /* padding: 4%; */
-      margin: 16px;
-  }
-  .gen1 {
-      width: 60%;
-      display: flex;
-      padding-left: 12px;
-  }
-  .gen2 {
-      width: 85%;
-      display: flex;
-      padding-left: 12px;
-  }
-  .textos1 {
-      text-align: left;
-  }
-  .img-community {
-      width: 100%;
-      display: block;
-      padding-left: 25%;
-      padding-right: 25%;
-  }
-  .b1 {
-      display: inline-block;
-  }
-  .b2 {
-      width: 240px;
-  }
-  .b3 {
-      font-size: 14px;
-  }
-
-  .error {
-      background-color: #BC1010;
-      padding: 6px 12px;
-      border-radius: 4px;
-      color: white;
-      font-weight: bold;
-      position: absolute;
-      right: 20%;
-  }
-  .succes {
-      background-color: #10bc39;
-      padding: 6px 10px 6px;
-      border-radius: 4px;
-      color: white;
-      font-weight: bold;
-      position: absolute;
-      right: 16%;
-  }
+    @font-face {
+        font-family: 'AGaramondPro-Bold';
+        src: url("../fonts/AGaramondPro-Bold.otf");
+    }
+    @font-face {
+        font-family: 'AGaramondPro-BoldItalic';
+        src: url("../fonts/AGaramondPro-BoldItalic.otf");
+    }
+    @font-face {
+        font-family: 'AGaramondPro-Italic';
+        src: url("../fonts/AGaramondPro-Italic.otf");
+    }
+    @font-face {
+        font-family: 'AGaramondPro-Regular';
+        src: url("../fonts/AGaramondPro-Regular.otf");
+    }
+    @font-face {
+        font-family: 'MyriadPro-Light';
+        src: url("../fonts/MyriadPro-Light.otf");
+    }
+    @font-face {
+        font-family: 'MyriadPro-Regular';
+        src: url("../fonts/MyriadPro-Regular.otf");
+    }
+    @font-face {
+        font-family: 'TrajanPro-Bold';
+        src: url("../fonts/TrajanPro-Bold.otf");
+    }
+    @font-face {
+        font-family: 'TrajanPro-Regular';
+        src: url("../fonts/TrajanPro-Regular.otf");
+    }
+    @font-face {
+        font-family: 'AvenirR';
+        src: url("../fonts/AvenirRoman.otf");
+    }
+    .fs35 {
+        font-size: 24px;
+    }
+    .pied-video {
+        width: 100%;
+        height: 300px;
+    }
+    .video {
+        font-family: AvenirR;
+        width: 100%;
+        font-size: 1.5em;
+        padding-left: 39.5%
+    }
+    .video-player {
+        padding-left: 34%;
+        margin: 0px;
+        padding-right: 43%;
+        padding-top: 4%;
+        width: 100%;
+    }
+    .modal-content {
+        margin: 0 auto;
+        display: block;
+    }
+    .btn-primary1 {
+        color: #fff;
+        border-color: #a77b1e;
+        font-family: AvenirR;
+    }
+    .bot {
+        font-size: 20px;
+    }
+    .resaltado4 {
+        color: #ffffff;
+    }
+    .avenir-R {
+        font-family: AvenirR;
+    }
+    .garamondP {
+        font-family: AGaramondPro-Regular;
+    }
+    /* ----------------HEADER ----------------*/
+    header {
+        background-color: #ffffff;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+    .imagen-header {
+        text-align: center;
+    }
+    .imagen {
+        width: 35%;
+    }
+    .primera-seccion {
+        width: 100%;
+        background-image: url("../img/MaryCielo-azul.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        padding-top: 60px;
+        padding-bottom: 178px;
+        height: 100px;
+    }
+    .texto1 {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: #ffffff;
+        letter-spacing: 1px;
+        line-height: 17px;
+        text-shadow: 0 2px 1px #0b0a0a4d;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .segunda-seccion {
+        background: #e8e8e8;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .texto2 {
+        color: #000000;
+        font-family: AGaramondPro-Regular;
+        text-align: center;
+        font-size: 16px;
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .botton {
+        font-family: AGaramondPro-Regular;
+        background: #a77b1e;
+        color: #ffffff;
+        border: none;
+        padding: 10px 40px;
+        font-size: 20px;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        transition: all 500ms ease;
+    }
+    .botton1 {
+        font-family: AGaramondPro-Regular;
+        background: #a77b1e;
+        color: #ffffff;
+        border: none;
+        padding: 10px 40px;
+        font-size: 20px;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        transition: all 500ms ease;
+    }
+    .botton2 {
+        font-family: AGaramondPro-Regular;
+        background: #a77b1e;
+        color: #ffffff;
+        border: none;
+        padding: 10px 40px;
+        font-size: 15px;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        transition: all 500ms ease;
+    }
+    .botton:hover {
+        background: rgb(133, 97, 21);
+    }
+    .tercera-seccion {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 70px;
+        padding-bottom: 20px;
+    }
+    .pri {
+        width: 100%;
+        display: block;
+        margin: 2px;
+    }
+    .texto3 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .texto31 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .resaltado31 {
+        color: #b29f5a;
+        font-family: AGaramondPro-Regular;
+    }
+    .text {
+        font-family: MyriadPro-Regular;
+        font-size: 15px;
+        text-align: center;
+        color: #4c4c4c;
+        padding: 10px 0px 10px 0px;
+    }
+    .ban1 {
+        width: 100%;
+        display: block;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    .ban1 img {
+        width: 100%;
+        display: block;
+    }
+    .title {
+        margin-bottom: 30px;
+    }
+    .formulario1 {
+        background-color: #f3f3f3;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .formulario2 {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .formulario3 {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+    }
+    .formulario3 input {
+        width: 100%;
+        background: #ffffff;
+        height: 35px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        border: solid 1px #4c4c4c;
+    }
+    .formulario3 input:focus {
+        transition: all 500ms ease;
+        background: #f3f3f3;
+    }
+    .formulario3 select {
+        height: 35px;
+        border: solid 1px #4c4c4c;
+        transition: all 500ms ease;
+    }
+    ::-webkit-input-placeholder {
+        position: relative;
+        left: 10px;
+    }
+    :-moz-placeholder {
+        position: relative;
+        left: 10px;
+    }
+    ::-moz-placeholder {
+        position: relative;
+        left: 10px;
+    }
+    :-ms-input-placeholder {
+        position: relative;
+        left: 10px;
+    }
+    .input100 {
+        width: 100% !important;
+    }
+    .texto4 {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .cuarta-seccion {
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    footer {
+        width: 100%;
+        background-color: #55646d;
+        text-align: center;
+        padding: 19px 0 18px;
+        font-family: AGaramondPro-Regular;
+    }
+    .texto5 {
+        color: #4c4c4c;
+        text-align: center;
+        font-size: 21px;
+        font-family: AGaramondPro-Regular;
+    }
+    .resaltado1 {
+        color: #001d58;
+        text-transform: uppercase;
+        font-family: TrajanPro-Regular;
+        font-size: 20px;
+    }
+    .text-exp {
+        margin: 2%;
+        font-family: MyriadPro-Regular;
+        font-size: 14px;
+        text-align: center;
+        padding-left: 23%;
+        padding-right: 11%;
+        padding-top: 16%;
+        color: #4c4c4c;
+    }
+    .resaltado2 {
+        color: #001d58;
+        text-transform: uppercase;
+        font-family: TrajanPro-Regular;
+        font-size: 20px;
+    }
+    .resaltado3 {
+        color: #b29f5a;
+        font-family: AGaramondPro-Regular;
+    }
+    .resaltado4:hover {
+        text-decoration: none;
+        color: #a77b1e;
+    }
+    .resaltado5 {
+        font-family: AGaramondPro-Italic;
+    }
+    .quinta-seccion {
+        width: 100%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .imges1 {
+        width: 80%;
+        display: flex;
+        padding-left: 17%;
+    }
+    .imges2 {
+        /* padding: 4%; */
+        margin: 16px;
+    }
+    .gen1 {
+        width: 60%;
+        display: flex;
+        padding-left: 12px;
+    }
+    .gen2 {
+        width: 85%;
+        display: flex;
+        padding-left: 12px;
+    }
+    .textos1 {
+        text-align: left;
+    }
+    .img-community {
+        width: 100%;
+        display: block;
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+    .b1 {
+        display: inline-block;
+    }
+    .b2 {
+        width: 240px;
+    }
+    .b3 {
+        font-size: 14px;
+    }
+    .error {
+        background-color: #BC1010;
+        padding: 6px 12px;
+        border-radius: 4px;
+        color: white;
+        font-weight: bold;
+        position: absolute;
+        right: 20%;
+    }
+    .succes {
+        background-color: #10bc39;
+        padding: 6px 10px 6px;
+        border-radius: 4px;
+        color: white;
+        font-weight: bold;
+        position: absolute;
+        right: 16%;
+    }
 }
 
 @media only screen and (min-width: 640px) and (max-width: 720px) {
-  @font-face {
-      font-family: 'AGaramondPro-Bold';
-      src: url("../fonts/AGaramondPro-Bold.otf");
-  }
-  @font-face {
-      font-family: 'AGaramondPro-BoldItalic';
-      src: url("../fonts/AGaramondPro-BoldItalic.otf");
-  }
-  @font-face {
-      font-family: 'AGaramondPro-Italic';
-      src: url("../fonts/AGaramondPro-Italic.otf");
-  }
-  @font-face {
-      font-family: 'AGaramondPro-Regular';
-      src: url("../fonts/AGaramondPro-Regular.otf");
-  }
-  @font-face {
-      font-family: 'MyriadPro-Light';
-      src: url("../fonts/MyriadPro-Light.otf");
-  }
-  @font-face {
-      font-family: 'MyriadPro-Regular';
-      src: url("../fonts/MyriadPro-Regular.otf");
-  }
-  @font-face {
-      font-family: 'TrajanPro-Bold';
-      src: url("../fonts/TrajanPro-Bold.otf");
-  }
-  @font-face {
-      font-family: 'TrajanPro-Regular';
-      src: url("../fonts/TrajanPro-Regular.otf");
-  }
-  @font-face {
-      font-family: 'AvenirR';
-      src: url("../fonts/AvenirRoman.otf");
-  }
-  .fs35 {
-      font-size: 24px;
-  }
-
-  .pied-video{
-    width: 100%;
-    height: 300px;
-  }
-
-  .video{
-    font-family: AvenirR;
-    width: 100%;
-    font-size: 1.5em;
-    padding-left: 39.5%
-  }
-
-  .video-player{
-   margin: 0px;
-   padding-left: 34%;
-   padding-right: 44%;
-  }
-  .modal-content{
-  margin: 0 auto;
-  display: block;
-  }
-
-  .btn-primary1 {
-      color: #fff;
-      border-color: #a77b1e;
-      font-family: AvenirR;
-  }
-
-  .bot{
-    font-size: 30px;
-  }
-
-  .resaltado4 {
-      color: #ffffff;
-  }
-  .avenir-R {
-      font-family: AvenirR;
-  }
-  .garamondP{
-      font-family: AGaramondPro-Regular;
-  }
-  /* ----------------HEADER ----------------*/
-  header {
-      background-color: #ffffff;
-      width: 100%;
-      padding-top: 30px;
-      padding-bottom: 30px;
-  }
-  .imagen-header {
-      text-align: center;
-  }
-
-  .imagen{
-    width: 35%;
-  }
-  .primera-seccion {
-      width: 100%;
-      background-image: url("../img/MaryCielo-azul.jpg");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: 100%;
-      padding-top: 60px;
-      padding-bottom: 178px;
-      height:  100px;
-  }
-  .texto1 {
-      width: 100%;
-      margin: 0 auto;
-      text-align: center;
-      color: #ffffff;
-      letter-spacing: 1px;
-      line-height: 23px;
-      text-shadow: 0 2px 1px #0b0a0a4d;
-      padding-left: 10%;
-      padding-right: 10%;
-  }
-  .segunda-seccion {
-      background: #e8e8e8;
-      width: 100%;
-      padding-top: 30px;
-      padding-bottom: 30px;
-      text-align: center;
-  }
-  .texto2 {
-      color: #000000;
-      font-family: AGaramondPro-Regular;
-      text-align: center;
-      font-size: 23px;
-      width: 100%;
-      margin: 0 auto;
-      padding-left: 20%;
-      padding-right: 20%;
-  }
-  .botton {
-      font-family: AGaramondPro-Regular;
-      background: #a77b1e;
-      color: #ffffff;
-      border: none;
-      padding: 10px 40px;
-      font-size: 20px;
-      margin-top: 30px;
-      letter-spacing: 1px;
-      transition: all 500ms ease;
-  }
-
-  .botton1 {
-      font-family: AGaramondPro-Regular;
-      background: #a77b1e;
-      color: #ffffff;
-      border: none;
-      padding: 10px 40px;
-      font-size: 20px;
-      margin-top: 30px;
-      letter-spacing: 1px;
-      transition: all 500ms ease;
-  }
-
-  .botton2 {
-      font-family: AGaramondPro-Regular;
-      background: #a77b1e;
-      color: #ffffff;
-      border: none;
-      padding: 10px 40px;
-      font-size: 15px;
-      margin-top: 30px;
-      letter-spacing: 1px;
-      transition: all 500ms ease;
-  }
-  .botton:hover {
-      background: rgb(133, 97, 21);
-  }
-  .tercera-seccion {
-      width: 100%;
-      margin: 0 auto;
-      padding-top: 70px;
-      padding-bottom: 20px;
-  }
-  .pri {
-      width: 100%;
-      display: block;
-      margin: 2px;
-  }
-  .texto3 {
-      width: 100%;
-      text-align: center;
-      margin-bottom: 30px;
-  }
-  .texto31 {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 10px;
-}
-.resaltado31 {
-    color: #b29f5a;
-    font-family: AGaramondPro-Regular;
-}
-  .text {
-      font-family: MyriadPro-Regular;
-      font-size: 15px;
-      text-align: center;
-      color: #4c4c4c;
-      padding: 10px 0px 10px 0px;
-  }
-  .ban1 {
-      width: 100%;
-      display: block;
-      padding-left: 28%;
-      padding-right: 29%;
-  }
-  .ban1 img {
-      width: 100%;
-      display: block;
-  }
-  .title {
-      margin-bottom: 30px;
-  }
-  .formulario1 {
-      background-color: #f3f3f3;
-      text-align: center;
-      padding-top: 40px;
-      padding-bottom: 40px;
-  }
-  .formulario2 {
-      width: 100%;
-      margin: 0px auto;
-  }
-  .formulario3 {
-      width: 70%;
-      margin: 0 auto;
-      display: flex;
-  }
-  .formulario3 input {
-      width: 100%;
-      background: #ffffff;
-      height: 35px;
-      margin-bottom: 10px;
-      margin-right: 10px;
-      border: solid 1px #4c4c4c;
-  }
-  .formulario3 input:focus {
-      transition: all 500ms ease;
-      background: #f3f3f3;
-  }
-  .formulario3 select {
-      height: 35px;
-      border: solid 1px #4c4c4c;
-      transition: all 500ms ease;
-  }
-  ::-webkit-input-placeholder {
-      position: relative;
-      left: 10px;
-  }
-  :-moz-placeholder {
-      position: relative;
-      left: 10px;
-  }
-  ::-moz-placeholder {
-      position: relative;
-      left: 10px;
-  }
-  :-ms-input-placeholder {
-      position: relative;
-      left: 10px;
-  }
-  .input100 {
-      width: 100%!important;
-  }
-  .texto4 {
-      text-align: center;
-      width: 100%;
-      margin-bottom: 20px;
-  }
-  .cuarta-seccion {
-      width: 100%;
-      padding-top: 30px;
-      padding-bottom: 30px;
-  }
-  footer {
-      width: 100%;
-      background-color: #55646d;
-      text-align: center;
-      padding: 19px 0 18px;
-      font-family: AGaramondPro-Regular;
-  }
-  .texto5 {
-      color: #4c4c4c;
-      text-align: center;
-      font-size: 21px;
-      font-family: AGaramondPro-Regular;
-  }
-  .resaltado1 {
-      color: #001d58;
-      text-transform: uppercase;
-      font-family: TrajanPro-Regular;
-      font-size: 25px;
-  }
-  .text-exp {
-      margin: 2%;
-      font-family: MyriadPro-Regular;
-      font-size: 14px;
-      text-align: center;
-      padding-left: 23%;
-      padding-right: 11%;
-      padding-top: 16%;
-      color: #4c4c4c;
-  }
-  .resaltado2 {
-      color: #001d58;
-      text-transform: uppercase;
-      font-family: TrajanPro-Regular;
-      font-size: 20px;
-  }
-  .resaltado3 {
-      color: #b29f5a;
-      font-family: AGaramondPro-Regular;
-  }
-  .resaltado4:hover{
-    text-decoration: none;
-    color: #a77b1e;
-
-}
-  .resaltado5 {
-      font-family: AGaramondPro-Italic;
-  }
-  .quinta-seccion {
-      width: 100%;
-      padding-top: 10%;
-      padding-bottom: 10%;
-  }
-  .imges1 {
-      width: 80%;
-      display: flex;
-      padding-left: 17%;
-  }
-  .imges2 {
-      /* padding: 4%; */
-      margin: 16px;
-  }
-  .gen1 {
-      width: 60%;
-      display: flex;
-      padding-left: 12px;
-  }
-  .gen2 {
-      width: 85%;
-      display: flex;
-      padding-left: 12px;
-  }
-  .textos1 {
-      text-align: left;
-  }
-  .img-community {
-      width: 100%;
-      display: block;
-      padding-left: 17%;
-  }
-  .b1 {
-      display: inline-block;
-      padding-right: 30px;
-  }
-  .b2 {
-      width: 225px;
-  }
-  .b3 {
-      font-size: 14px;
-  }
-
-  .error {
-      background-color: #BC1010;
-      padding: 6px 12px;
-      border-radius: 4px;
-      color: white;
-      font-weight: bold;
-      position: absolute;
-      right: 20%;
-  }
-  .succes {
-      background-color: #10bc39;
-      padding: 6px 10px 6px;
-      border-radius: 4px;
-      color: white;
-      font-weight: bold;
-      position: absolute;
-      right: 16%;
-  }
+    @font-face {
+        font-family: 'AGaramondPro-Bold';
+        src: url("../fonts/AGaramondPro-Bold.otf");
+    }
+    @font-face {
+        font-family: 'AGaramondPro-BoldItalic';
+        src: url("../fonts/AGaramondPro-BoldItalic.otf");
+    }
+    @font-face {
+        font-family: 'AGaramondPro-Italic';
+        src: url("../fonts/AGaramondPro-Italic.otf");
+    }
+    @font-face {
+        font-family: 'AGaramondPro-Regular';
+        src: url("../fonts/AGaramondPro-Regular.otf");
+    }
+    @font-face {
+        font-family: 'MyriadPro-Light';
+        src: url("../fonts/MyriadPro-Light.otf");
+    }
+    @font-face {
+        font-family: 'MyriadPro-Regular';
+        src: url("../fonts/MyriadPro-Regular.otf");
+    }
+    @font-face {
+        font-family: 'TrajanPro-Bold';
+        src: url("../fonts/TrajanPro-Bold.otf");
+    }
+    @font-face {
+        font-family: 'TrajanPro-Regular';
+        src: url("../fonts/TrajanPro-Regular.otf");
+    }
+    @font-face {
+        font-family: 'AvenirR';
+        src: url("../fonts/AvenirRoman.otf");
+    }
+    .fs35 {
+        font-size: 24px;
+    }
+    .pied-video {
+        width: 100%;
+        height: 300px;
+    }
+    .video {
+        font-family: AvenirR;
+        width: 100%;
+        font-size: 1.5em;
+        padding-left: 39.5%
+    }
+    .video-player {
+        margin: 0px;
+        padding-left: 34%;
+        padding-right: 44%;
+    }
+    .modal-content {
+        margin: 0 auto;
+        display: block;
+    }
+    .btn-primary1 {
+        color: #fff;
+        border-color: #a77b1e;
+        font-family: AvenirR;
+    }
+    .bot {
+        font-size: 30px;
+    }
+    .resaltado4 {
+        color: #ffffff;
+    }
+    .avenir-R {
+        font-family: AvenirR;
+    }
+    .garamondP {
+        font-family: AGaramondPro-Regular;
+    }
+    /* ----------------HEADER ----------------*/
+    header {
+        background-color: #ffffff;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .imagen-header {
+        text-align: center;
+    }
+    .imagen {
+        width: 35%;
+    }
+    .primera-seccion {
+        width: 100%;
+        background-image: url("../img/MaryCielo-azul.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        padding-top: 60px;
+        padding-bottom: 178px;
+        height: 100px;
+    }
+    .texto1 {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        color: #ffffff;
+        letter-spacing: 1px;
+        line-height: 23px;
+        text-shadow: 0 2px 1px #0b0a0a4d;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .segunda-seccion {
+        background: #e8e8e8;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .texto2 {
+        color: #000000;
+        font-family: AGaramondPro-Regular;
+        text-align: center;
+        font-size: 23px;
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .botton {
+        font-family: AGaramondPro-Regular;
+        background: #a77b1e;
+        color: #ffffff;
+        border: none;
+        padding: 10px 40px;
+        font-size: 20px;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        transition: all 500ms ease;
+    }
+    .botton1 {
+        font-family: AGaramondPro-Regular;
+        background: #a77b1e;
+        color: #ffffff;
+        border: none;
+        padding: 10px 40px;
+        font-size: 20px;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        transition: all 500ms ease;
+    }
+    .botton2 {
+        font-family: AGaramondPro-Regular;
+        background: #a77b1e;
+        color: #ffffff;
+        border: none;
+        padding: 10px 40px;
+        font-size: 15px;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        transition: all 500ms ease;
+    }
+    .botton:hover {
+        background: rgb(133, 97, 21);
+    }
+    .tercera-seccion {
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 70px;
+        padding-bottom: 20px;
+    }
+    .pri {
+        width: 100%;
+        display: block;
+        margin: 2px;
+    }
+    .texto3 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .texto31 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .resaltado31 {
+        color: #b29f5a;
+        font-family: AGaramondPro-Regular;
+    }
+    .text {
+        font-family: MyriadPro-Regular;
+        font-size: 15px;
+        text-align: center;
+        color: #4c4c4c;
+        padding: 10px 0px 10px 0px;
+    }
+    .ban1 {
+        width: 100%;
+        display: block;
+        padding-left: 28%;
+        padding-right: 29%;
+    }
+    .ban1 img {
+        width: 100%;
+        display: block;
+    }
+    .title {
+        margin-bottom: 30px;
+    }
+    .formulario1 {
+        background-color: #f3f3f3;
+        text-align: center;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .formulario2 {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .formulario3 {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+    }
+    .formulario3 input {
+        width: 100%;
+        background: #ffffff;
+        height: 35px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        border: solid 1px #4c4c4c;
+    }
+    .formulario3 input:focus {
+        transition: all 500ms ease;
+        background: #f3f3f3;
+    }
+    .formulario3 select {
+        height: 35px;
+        border: solid 1px #4c4c4c;
+        transition: all 500ms ease;
+    }
+    ::-webkit-input-placeholder {
+        position: relative;
+        left: 10px;
+    }
+    :-moz-placeholder {
+        position: relative;
+        left: 10px;
+    }
+    ::-moz-placeholder {
+        position: relative;
+        left: 10px;
+    }
+    :-ms-input-placeholder {
+        position: relative;
+        left: 10px;
+    }
+    .input100 {
+        width: 100% !important;
+    }
+    .texto4 {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .cuarta-seccion {
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    footer {
+        width: 100%;
+        background-color: #55646d;
+        text-align: center;
+        padding: 19px 0 18px;
+        font-family: AGaramondPro-Regular;
+    }
+    .texto5 {
+        color: #4c4c4c;
+        text-align: center;
+        font-size: 21px;
+        font-family: AGaramondPro-Regular;
+    }
+    .resaltado1 {
+        color: #001d58;
+        text-transform: uppercase;
+        font-family: TrajanPro-Regular;
+        font-size: 25px;
+    }
+    .text-exp {
+        margin: 2%;
+        font-family: MyriadPro-Regular;
+        font-size: 14px;
+        text-align: center;
+        padding-left: 23%;
+        padding-right: 11%;
+        padding-top: 16%;
+        color: #4c4c4c;
+    }
+    .resaltado2 {
+        color: #001d58;
+        text-transform: uppercase;
+        font-family: TrajanPro-Regular;
+        font-size: 20px;
+    }
+    .resaltado3 {
+        color: #b29f5a;
+        font-family: AGaramondPro-Regular;
+    }
+    .resaltado4:hover {
+        text-decoration: none;
+        color: #a77b1e;
+    }
+    .resaltado5 {
+        font-family: AGaramondPro-Italic;
+    }
+    .quinta-seccion {
+        width: 100%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .imges1 {
+        width: 80%;
+        display: flex;
+        padding-left: 17%;
+    }
+    .imges2 {
+        /* padding: 4%; */
+        margin: 16px;
+    }
+    .gen1 {
+        width: 60%;
+        display: flex;
+        padding-left: 12px;
+    }
+    .gen2 {
+        width: 85%;
+        display: flex;
+        padding-left: 12px;
+    }
+    .textos1 {
+        text-align: left;
+    }
+    .img-community {
+        width: 100%;
+        display: block;
+        padding-left: 17%;
+    }
+    .b1 {
+        display: inline-block;
+        padding-right: 30px;
+    }
+    .b2 {
+        width: 225px;
+    }
+    .b3 {
+        font-size: 14px;
+    }
+    .error {
+        background-color: #BC1010;
+        padding: 6px 12px;
+        border-radius: 4px;
+        color: white;
+        font-weight: bold;
+        position: absolute;
+        right: 20%;
+    }
+    .succes {
+        background-color: #10bc39;
+        padding: 6px 10px 6px;
+        border-radius: 4px;
+        color: white;
+        font-weight: bold;
+        position: absolute;
+        right: 16%;
+    }
 }
 
-  @media only screen and (max-width: 1024px) and (min-width: 721px) {
+@media only screen and (max-width: 1024px) and (min-width: 721px) {
     /* ----------------CONFIGURACIONES GENERALES ----------------*/
     @font-face {
         font-family: 'AGaramondPro-Bold';
@@ -2788,41 +2777,35 @@ footer {
     .fs35 {
         font-size: 35px;
     }
-
-    .pied-video{
-      width: 100%;
-      height: 350px;
+    .pied-video {
+        width: 100%;
+        height: 350px;
     }
-
-    .video{
-      font-family: AvenirR;
-      width: 100%;
-      font-size: 1.5em;
-      padding-left: 39.5%
+    .video {
+        font-family: AvenirR;
+        width: 100%;
+        font-size: 1.5em;
+        padding-left: 39.5%
     }
-
-    .video-player{
-     margin: 0px;
-     padding-left: 37%;
-     padding-right: 38%;
-     padding-top: 2%;
-     text-align: center;
+    .video-player {
+        margin: 0px;
+        padding-left: 37%;
+        padding-right: 38%;
+        padding-top: 2%;
+        text-align: center;
     }
-    .modal-content{
-    margin: 0 auto;
-    display: block;
+    .modal-content {
+        margin: 0 auto;
+        display: block;
     }
-
     .btn-primary1 {
         color: #fff;
         border-color: #a77b1e;
         font-family: AvenirR;
     }
-
-    .bot{
-      font-size: 30px;
+    .bot {
+        font-size: 30px;
     }
-
     .resaltado4 {
         color: #ffffff;
         font-size: 20px;
@@ -2830,7 +2813,7 @@ footer {
     .avenir-R {
         font-family: AvenirR;
     }
-    .garamondP{
+    .garamondP {
         font-family: AGaramondPro-Regular;
     }
     /* ----------------HEADER ----------------*/
@@ -2889,7 +2872,6 @@ footer {
         letter-spacing: 1px;
         transition: all 500ms ease;
     }
-
     .botton1 {
         font-family: AGaramondPro-Regular;
         background: #a77b1e;
@@ -2901,7 +2883,6 @@ footer {
         letter-spacing: 1px;
         transition: all 500ms ease;
     }
-
     .botton2 {
         font-family: AGaramondPro-Regular;
         background: #a77b1e;
@@ -2958,7 +2939,7 @@ footer {
         padding-right: 5%;
     }
     .ban1 img {
-    width: 100%;
+        width: 100%;
     }
     .title {
         margin-bottom: 29px;
@@ -3012,7 +2993,7 @@ footer {
         left: 10px;
     }
     .input100 {
-        width: 100%!important;
+        width: 100% !important;
     }
     .texto4 {
         text-align: center;
@@ -3063,10 +3044,9 @@ footer {
         color: #b29f5a;
         font-family: AGaramondPro-Regular;
     }
-    .resaltado4:hover{
+    .resaltado4:hover {
         text-decoration: none;
         color: #a77b1e;
-    
     }
     .resaltado5 {
         font-family: AGaramondPro-Italic;
@@ -3112,7 +3092,6 @@ footer {
     .b3 {
         font-size: 16px;
     }
-
     .error {
         background-color: #BC1010;
         padding: 6px 12px;
@@ -3133,7 +3112,7 @@ footer {
     }
 }
 
-  @media only screen and (max-width: 1080px) and (min-width: 1025px) {
+@media only screen and (max-width: 1080px) and (min-width: 1025px) {
     /* ----------------CONFIGURACIONES GENERALES ----------------*/
     @font-face {
         font-family: 'AGaramondPro-Bold';
@@ -3174,41 +3153,35 @@ footer {
     .fs35 {
         font-size: 35px;
     }
-
-    .pied-video{
-      width: 100%;
-      height: 350px;
+    .pied-video {
+        width: 100%;
+        height: 350px;
     }
-
-    .video{
-      font-family: AvenirR;
-      width: 100%;
-      font-size: 1.5em;
-      padding-left: 39.5%
+    .video {
+        font-family: AvenirR;
+        width: 100%;
+        font-size: 1.5em;
+        padding-left: 39.5%
     }
-
-    .video-player{
-     margin: 0px;
-     padding-left: 39%;
-     padding-right: 38%;
-     padding-top: 2%;
-     text-align: center;
+    .video-player {
+        margin: 0px;
+        padding-left: 39%;
+        padding-right: 38%;
+        padding-top: 2%;
+        text-align: center;
     }
-    .modal-content{
-    margin: 0 auto;
-    display: block;
+    .modal-content {
+        margin: 0 auto;
+        display: block;
     }
-
     .btn-primary1 {
         color: #fff;
         border-color: #a77b1e;
         font-family: AvenirR;
     }
-
-    .bot{
-      font-size: 30px;
+    .bot {
+        font-size: 30px;
     }
-
     .resaltado4 {
         color: #ffffff;
         font-size: 20px;
@@ -3216,7 +3189,7 @@ footer {
     .avenir-R {
         font-family: AvenirR;
     }
-    .garamondP{
+    .garamondP {
         font-family: AGaramondPro-Regular;
     }
     /* ----------------HEADER ----------------*/
@@ -3273,7 +3246,6 @@ footer {
         letter-spacing: 1px;
         transition: all 500ms ease;
     }
-
     .botton1 {
         font-family: AGaramondPro-Regular;
         background: #a77b1e;
@@ -3285,7 +3257,6 @@ footer {
         letter-spacing: 1px;
         transition: all 500ms ease;
     }
-
     .botton2 {
         font-family: AGaramondPro-Regular;
         background: #a77b1e;
@@ -3395,7 +3366,7 @@ footer {
         left: 10px;
     }
     .input100 {
-        width: 100%!important;
+        width: 100% !important;
     }
     .texto4 {
         text-align: center;
@@ -3446,10 +3417,9 @@ footer {
         color: #b29f5a;
         font-family: AGaramondPro-Regular;
     }
-    .resaltado4:hover{
+    .resaltado4:hover {
         text-decoration: none;
         color: #a77b1e;
-    
     }
     .resaltado5 {
         font-family: AGaramondPro-Italic;
@@ -3495,7 +3465,6 @@ footer {
     .b3 {
         font-size: 16px;
     }
-
     .error {
         background-color: #BC1010;
         padding: 6px 12px;
@@ -3557,41 +3526,35 @@ footer {
     .fs35 {
         font-size: 50px;
     }
-  
-    .pied-video{
-      width: 100%;
-      height: 350px;
+    .pied-video {
+        width: 100%;
+        height: 350px;
     }
-  
-    .video{
-      font-family: AvenirR;
-      width: 100%;
-      font-size: 1.5em;
-      padding-left: 39.5%
+    .video {
+        font-family: AvenirR;
+        width: 100%;
+        font-size: 1.5em;
+        padding-left: 39.5%
     }
-  
-    .video-player{
-     margin: 0px;
-     padding-left: 43%;
-     padding-right: 43%;
-     padding-top: 4%;
-     text-align: center;
+    .video-player {
+        margin: 0px;
+        padding-left: 43%;
+        padding-right: 43%;
+        padding-top: 4%;
+        text-align: center;
     }
-    .modal-content{
-    margin: 0 auto;
-    display: block;
+    .modal-content {
+        margin: 0 auto;
+        display: block;
     }
-  
     .btn-primary1 {
         color: #fff;
         border-color: #a77b1e;
         font-family: AvenirR;
     }
-  
-    .bot{
-      font-size: 40px;
+    .bot {
+        font-size: 40px;
     }
-  
     .resaltado4 {
         color: #ffffff;
         font-size: 20px;
@@ -3599,7 +3562,7 @@ footer {
     .avenir-R {
         font-family: AvenirR;
     }
-    .garamondP{
+    .garamondP {
         font-family: AGaramondPro-Regular;
     }
     /* ----------------HEADER ----------------*/
@@ -3656,7 +3619,6 @@ footer {
         letter-spacing: 1px;
         transition: all 500ms ease;
     }
-  
     .botton1 {
         font-family: AGaramondPro-Regular;
         background: #a77b1e;
@@ -3668,7 +3630,6 @@ footer {
         letter-spacing: 1px;
         transition: all 500ms ease;
     }
-  
     .botton2 {
         font-family: AGaramondPro-Regular;
         background: #a77b1e;
@@ -3777,7 +3738,7 @@ footer {
         left: 10px;
     }
     .input100 {
-        width: 100%!important;
+        width: 100% !important;
     }
     .texto4 {
         text-align: center;
@@ -3828,10 +3789,9 @@ footer {
         color: #b29f5a;
         font-family: AGaramondPro-Regular;
     }
-    .resaltado4:hover{
+    .resaltado4:hover {
         text-decoration: none;
         color: #a77b1e;
-    
     }
     .resaltado5 {
         font-family: AGaramondPro-Italic;
@@ -3878,7 +3838,6 @@ footer {
     .b3 {
         font-size: 16px;
     }
-  
     .error {
         background-color: #BC1010;
         padding: 6px 12px;
@@ -3897,387 +3856,377 @@ footer {
         position: absolute;
         right: 16%;
     }
-  }
-  
+}
+
 @media only screen and (min-width: 2300px) and (max-width: 2560px) {
-  /* ----------------CONFIGURACIONES GENERALES ----------------*/
-  @font-face {
-      font-family: 'AGaramondPro-Bold';
-      src: url("../fonts/AGaramondPro-Bold.otf");
-  }
-  @font-face {
-      font-family: 'AGaramondPro-BoldItalic';
-      src: url("../fonts/AGaramondPro-BoldItalic.otf");
-  }
-  @font-face {
-      font-family: 'AGaramondPro-Italic';
-      src: url("../fonts/AGaramondPro-Italic.otf");
-  }
-  @font-face {
-      font-family: 'AGaramondPro-Regular';
-      src: url("../fonts/AGaramondPro-Regular.otf");
-  }
-  @font-face {
-      font-family: 'MyriadPro-Light';
-      src: url("../fonts/MyriadPro-Light.otf");
-  }
-  @font-face {
-      font-family: 'MyriadPro-Regular';
-      src: url("../fonts/MyriadPro-Regular.otf");
-  }
-  @font-face {
-      font-family: 'TrajanPro-Bold';
-      src: url("../fonts/TrajanPro-Bold.otf");
-  }
-  @font-face {
-      font-family: 'TrajanPro-Regular';
-      src: url("../fonts/TrajanPro-Regular.otf");
-  }
-  @font-face {
-      font-family: 'AvenirR';
-      src: url("../fonts/AvenirRoman.otf");
-  }
-  .fs35 {
-      font-size: 35px;
-  }
-
-  .pied-video{
-    width: 100%;
-    height: 350px;
-  }
-
-  .video{
-    font-family: AvenirR;
-    width: 100%;
-    font-size: 1.5em;
-    padding-left: 39.5%
-  }
-
-  .video-player{
-   margin: 0px;
-   padding-left: 45%;
-   padding-right: 44%;
-   padding-top: 4%;
-   text-align: center;
-  }
-  .modal-content{
-  margin: 0 auto;
-  display: block;
-  }
-
-  .btn-primary1 {
-      color: #fff;
-      border-color: #a77b1e;
-      font-family: AvenirR;
-  }
-
-  .bot{
-    font-size: 30px;
-  }
-
-  .resaltado4 {
-      color: #ffffff;
-      font-size: 20px;
-  }
-  .avenir-R {
-      font-family: AvenirR;
-  }
-  .garamondP{
-      font-family: AGaramondPro-Regular;
-  }
-  /* ----------------HEADER ----------------*/
-  header {
-      background-color: #ffffff;
-      width: 100%;
-      padding-top: 30px;
-      padding-bottom: 30px;
-  }
-  .imagen-header {
-      text-align: center;
-  }
-  .primera-seccion {
-      width: 100%;
-      background-image: url("../img/MaryCielo-azul1.jpg");
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: 100%;
-      padding-top: 100px;
-      padding-bottom: 60px;
-  }
-  .texto1 {
-      width: 50%;
-      margin: 0 auto;
-      text-align: center;
-      color: #ffffff;
-      letter-spacing: 1px;
-      line-height: 50px;
-      text-shadow: 0 2px 1px #0b0a0a4d;
-  }
-  .segunda-seccion {
-      background: #e8e8e8;
-      width: 100%;
-      padding-top: 30px;
-      padding-bottom: 30px;
-      text-align: center;
-  }
-  .texto2 {
-      color: #000000;
-      font-family: AGaramondPro-Regular;
-      text-align: center;
-      font-size: 30px;
-      width: 30%;
-      margin: 0 auto;
-  }
-  .botton {
-      font-family: AGaramondPro-Regular;
-      background: #a77b1e;
-      color: #ffffff;
-      border: none;
-      padding: 10px 40px;
-      font-size: 20px;
-      margin-top: 30px;
-      letter-spacing: 1px;
-      transition: all 500ms ease;
-  }
-
-  .botton1 {
-      font-family: AGaramondPro-Regular;
-      background: #a77b1e;
-      color: #ffffff;
-      border: none;
-      padding: 10px 40px;
-      font-size: 20px;
-      margin-top: 30px;
-      letter-spacing: 1px;
-      transition: all 500ms ease;
-  }
-
-  .botton2 {
-      font-family: AGaramondPro-Regular;
-      background: #a77b1e;
-      color: #ffffff;
-      border: none;
-      padding: 10px 40px;
-      font-size: 20px;
-      margin-top: 30px;
-      letter-spacing: 1px;
-      transition: all 500ms ease;
-  }
-  .botton:hover {
-      background: rgb(133, 97, 21);
-  }
-  .tercera-seccion {
-      width: 95%;
-      margin: 0 auto;
-      padding-top: 70px;
-      padding-bottom: 20px;
-      padding-left: 10%;
-      padding-right: 10%;
-  }
-  .pri {
-      width: 100%;
-      display: flex;
-      margin: 2px;
-  }
-  .texto3 {
-      width: 100%;
-      text-align: center;
-      margin-bottom: 30px;
-  }
-  .texto31 {
-    width: 100%;
-    text-align: center;
-    margin-bottom: 10px;
-}
-.resaltado31 {
-    color: #b29f5a;
-    font-family: AGaramondPro-Regular;
-}
-  .text {
-      font-family: MyriadPro-Regular;
-      font-size: 20px;
-      text-align: center;
-      color: #4c4c4c;
-      padding: 0px 90px 10px 90px;
-  }
-  .ban1 {
-      width: 50%;
-      display: flex;
-      align-items: center;
-  }
-  .ban1 img {
-      width: 300px;
-  }
-  .title {
-      margin-bottom: 30px;
-  }
-  .formulario1 {
-      background-color: #f3f3f3;
-      text-align: center;
-      padding-top: 30px;
-      padding-bottom: 30px;
-  }
-  .formulario2 {
-      width: 50%;
-      margin: 0 auto;
-  }
-  .formulario3 {
-      width: 70%;
-      margin: 0 auto;
-      display: flex;
-  }
-  .formulario3 input {
-      width: 50%;
-      background: #ffffff;
-      height: 35px;
-      margin-bottom: 10px;
-      margin-right: 10px;
-      border: solid 1px #4c4c4c;
-  }
-  .formulario3 input:focus {
-      transition: all 500ms ease;
-      background: #f3f3f3;
-  }
-  .formulario3 select {
-      height: 35px;
-      border: solid 1px #4c4c4c;
-      transition: all 500ms ease;
-  }
-  ::-webkit-input-placeholder {
-      position: relative;
-      left: 10px;
-  }
-  :-moz-placeholder {
-      position: relative;
-      left: 10px;
-  }
-  ::-moz-placeholder {
-      position: relative;
-      left: 10px;
-  }
-  :-ms-input-placeholder {
-      position: relative;
-      left: 10px;
-  }
-  .input100 {
-      width: 100%!important;
-  }
-  .texto4 {
-      text-align: center;
-      width: 100%;
-      margin-bottom: 20px;
-  }
-  .cuarta-seccion {
-      width: 100%;
-      padding-top: 30px;
-      padding-bottom: 30px;
-  }
-  footer {
-      width: 100%;
-      background-color: #55646d;
-      text-align: center;
-      padding: 19px 0 18px;
-      font-family: AGaramondPro-Regular;
-  }
-  .texto5 {
-      color: #4c4c4c;
-      text-align: center;
-      font-size: 25px;
-      font-family: AGaramondPro-Regular;
-  }
-  .resaltado1 {
-      color: #001d58;
-      text-transform: uppercase;
-      font-family: TrajanPro-Regular;
-      font-size: 26px;
-  }
-  .text-exp {
-      margin: 2%;
-      font-family: MyriadPro-Regular;
-      font-size: 14px;
-      text-align: center;
-      padding-left: 23%;
-      padding-right: 11%;
-      padding-top: 16%;
-      color: #4c4c4c;
-  }
-  .resaltado2 {
-      color: #001d58;
-      text-transform: uppercase;
-      font-family: TrajanPro-Regular;
-      font-size: 26px;
-  }
-  .resaltado3 {
-      color: #b29f5a;
-      font-family: AGaramondPro-Regular;
-  }
-  .resaltado4:hover{
-    text-decoration: none;
-    color: #a77b1e;
-
-}
-  .resaltado5 {
-      font-family: AGaramondPro-Italic;
-  }
-  .quinta-seccion {
-      width: 100%;
-      padding-top: 3%;
-      padding-bottom: 7%;
-  }
-  .imges1 {
-      width: 80%;
-      display: flex;
-      padding-left: 17%;
-  }
-  .imges2 {
-      /* padding: 4%; */
-      margin: 16px;
-  }
-  .gen1 {
-      width: 60%;
-      display: flex;
-      padding-left: 12px;
-  }
-  .gen2 {
-      width: 85%;
-      display: flex;
-      padding-left: 12px;
-  }
-  .textos1 {
-      text-align: left;
-  }
-  .img-community {
-      width: 100%;
-      padding-left: 25%;
-      display: flex;
-      padding-right: 23%;
-  }
-  .b1 {
-      padding-right: 49px;
-  }
-  .b2 {
-      width: 280px;
-  }
-  .b3 {
-      font-size: 16px;
-  }
-
-  .error {
-      background-color: #BC1010;
-      padding: 6px 12px;
-      border-radius: 4px;
-      color: white;
-      font-weight: bold;
-      position: absolute;
-      right: 20%;
-  }
-  .succes {
-      background-color: #10bc39;
-      padding: 6px 10px 6px;
-      border-radius: 4px;
-      color: white;
-      font-weight: bold;
-      position: absolute;
-      right: 16%;
-  }
+    /* ----------------CONFIGURACIONES GENERALES ----------------*/
+    @font-face {
+        font-family: 'AGaramondPro-Bold';
+        src: url("../fonts/AGaramondPro-Bold.otf");
+    }
+    @font-face {
+        font-family: 'AGaramondPro-BoldItalic';
+        src: url("../fonts/AGaramondPro-BoldItalic.otf");
+    }
+    @font-face {
+        font-family: 'AGaramondPro-Italic';
+        src: url("../fonts/AGaramondPro-Italic.otf");
+    }
+    @font-face {
+        font-family: 'AGaramondPro-Regular';
+        src: url("../fonts/AGaramondPro-Regular.otf");
+    }
+    @font-face {
+        font-family: 'MyriadPro-Light';
+        src: url("../fonts/MyriadPro-Light.otf");
+    }
+    @font-face {
+        font-family: 'MyriadPro-Regular';
+        src: url("../fonts/MyriadPro-Regular.otf");
+    }
+    @font-face {
+        font-family: 'TrajanPro-Bold';
+        src: url("../fonts/TrajanPro-Bold.otf");
+    }
+    @font-face {
+        font-family: 'TrajanPro-Regular';
+        src: url("../fonts/TrajanPro-Regular.otf");
+    }
+    @font-face {
+        font-family: 'AvenirR';
+        src: url("../fonts/AvenirRoman.otf");
+    }
+    .fs35 {
+        font-size: 35px;
+    }
+    .pied-video {
+        width: 100%;
+        height: 350px;
+    }
+    .video {
+        font-family: AvenirR;
+        width: 100%;
+        font-size: 1.5em;
+        padding-left: 39.5%
+    }
+    .video-player {
+        margin: 0px;
+        padding-left: 45%;
+        padding-right: 44%;
+        padding-top: 4%;
+        text-align: center;
+    }
+    .modal-content {
+        margin: 0 auto;
+        display: block;
+    }
+    .btn-primary1 {
+        color: #fff;
+        border-color: #a77b1e;
+        font-family: AvenirR;
+    }
+    .bot {
+        font-size: 30px;
+    }
+    .resaltado4 {
+        color: #ffffff;
+        font-size: 20px;
+    }
+    .avenir-R {
+        font-family: AvenirR;
+    }
+    .garamondP {
+        font-family: AGaramondPro-Regular;
+    }
+    /* ----------------HEADER ----------------*/
+    header {
+        background-color: #ffffff;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .imagen-header {
+        text-align: center;
+    }
+    .primera-seccion {
+        width: 100%;
+        background-image: url("../img/MaryCielo-azul1.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+    .texto1 {
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        color: #ffffff;
+        letter-spacing: 1px;
+        line-height: 50px;
+        text-shadow: 0 2px 1px #0b0a0a4d;
+    }
+    .segunda-seccion {
+        background: #e8e8e8;
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+    .texto2 {
+        color: #000000;
+        font-family: AGaramondPro-Regular;
+        text-align: center;
+        font-size: 30px;
+        width: 30%;
+        margin: 0 auto;
+    }
+    .botton {
+        font-family: AGaramondPro-Regular;
+        background: #a77b1e;
+        color: #ffffff;
+        border: none;
+        padding: 10px 40px;
+        font-size: 20px;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        transition: all 500ms ease;
+    }
+    .botton1 {
+        font-family: AGaramondPro-Regular;
+        background: #a77b1e;
+        color: #ffffff;
+        border: none;
+        padding: 10px 40px;
+        font-size: 20px;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        transition: all 500ms ease;
+    }
+    .botton2 {
+        font-family: AGaramondPro-Regular;
+        background: #a77b1e;
+        color: #ffffff;
+        border: none;
+        padding: 10px 40px;
+        font-size: 20px;
+        margin-top: 30px;
+        letter-spacing: 1px;
+        transition: all 500ms ease;
+    }
+    .botton:hover {
+        background: rgb(133, 97, 21);
+    }
+    .tercera-seccion {
+        width: 95%;
+        margin: 0 auto;
+        padding-top: 70px;
+        padding-bottom: 20px;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .pri {
+        width: 100%;
+        display: flex;
+        margin: 2px;
+    }
+    .texto3 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .texto31 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .resaltado31 {
+        color: #b29f5a;
+        font-family: AGaramondPro-Regular;
+    }
+    .text {
+        font-family: MyriadPro-Regular;
+        font-size: 20px;
+        text-align: center;
+        color: #4c4c4c;
+        padding: 0px 90px 10px 90px;
+    }
+    .ban1 {
+        width: 50%;
+        display: flex;
+        align-items: center;
+    }
+    .ban1 img {
+        width: 300px;
+    }
+    .title {
+        margin-bottom: 30px;
+    }
+    .formulario1 {
+        background-color: #f3f3f3;
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .formulario2 {
+        width: 50%;
+        margin: 0 auto;
+    }
+    .formulario3 {
+        width: 70%;
+        margin: 0 auto;
+        display: flex;
+    }
+    .formulario3 input {
+        width: 50%;
+        background: #ffffff;
+        height: 35px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        border: solid 1px #4c4c4c;
+    }
+    .formulario3 input:focus {
+        transition: all 500ms ease;
+        background: #f3f3f3;
+    }
+    .formulario3 select {
+        height: 35px;
+        border: solid 1px #4c4c4c;
+        transition: all 500ms ease;
+    }
+    ::-webkit-input-placeholder {
+        position: relative;
+        left: 10px;
+    }
+    :-moz-placeholder {
+        position: relative;
+        left: 10px;
+    }
+    ::-moz-placeholder {
+        position: relative;
+        left: 10px;
+    }
+    :-ms-input-placeholder {
+        position: relative;
+        left: 10px;
+    }
+    .input100 {
+        width: 100% !important;
+    }
+    .texto4 {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .cuarta-seccion {
+        width: 100%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    footer {
+        width: 100%;
+        background-color: #55646d;
+        text-align: center;
+        padding: 19px 0 18px;
+        font-family: AGaramondPro-Regular;
+    }
+    .texto5 {
+        color: #4c4c4c;
+        text-align: center;
+        font-size: 25px;
+        font-family: AGaramondPro-Regular;
+    }
+    .resaltado1 {
+        color: #001d58;
+        text-transform: uppercase;
+        font-family: TrajanPro-Regular;
+        font-size: 26px;
+    }
+    .text-exp {
+        margin: 2%;
+        font-family: MyriadPro-Regular;
+        font-size: 14px;
+        text-align: center;
+        padding-left: 23%;
+        padding-right: 11%;
+        padding-top: 16%;
+        color: #4c4c4c;
+    }
+    .resaltado2 {
+        color: #001d58;
+        text-transform: uppercase;
+        font-family: TrajanPro-Regular;
+        font-size: 26px;
+    }
+    .resaltado3 {
+        color: #b29f5a;
+        font-family: AGaramondPro-Regular;
+    }
+    .resaltado4:hover {
+        text-decoration: none;
+        color: #a77b1e;
+    }
+    .resaltado5 {
+        font-family: AGaramondPro-Italic;
+    }
+    .quinta-seccion {
+        width: 100%;
+        padding-top: 3%;
+        padding-bottom: 7%;
+    }
+    .imges1 {
+        width: 80%;
+        display: flex;
+        padding-left: 17%;
+    }
+    .imges2 {
+        /* padding: 4%; */
+        margin: 16px;
+    }
+    .gen1 {
+        width: 60%;
+        display: flex;
+        padding-left: 12px;
+    }
+    .gen2 {
+        width: 85%;
+        display: flex;
+        padding-left: 12px;
+    }
+    .textos1 {
+        text-align: left;
+    }
+    .img-community {
+        width: 100%;
+        padding-left: 25%;
+        display: flex;
+        padding-right: 23%;
+    }
+    .b1 {
+        padding-right: 49px;
+    }
+    .b2 {
+        width: 280px;
+    }
+    .b3 {
+        font-size: 16px;
+    }
+    .error {
+        background-color: #BC1010;
+        padding: 6px 12px;
+        border-radius: 4px;
+        color: white;
+        font-weight: bold;
+        position: absolute;
+        right: 20%;
+    }
+    .succes {
+        background-color: #10bc39;
+        padding: 6px 10px 6px;
+        border-radius: 4px;
+        color: white;
+        font-weight: bold;
+        position: absolute;
+        right: 16%;
+    }
 }

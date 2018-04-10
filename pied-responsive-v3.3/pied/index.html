@@ -1,573 +1,596 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="Description" content="Become a Pied à Terre host, Affiliate your property and feel the spirit of our community">
-        <meta name="Keywords" content="Host, Afiliate, Properties, Spirit, Community">
-        <!-- Links -->
-        <link rel="stylesheet" type="text/css" href="sources/css/style.css">
-        <script defer src="sources/js/validate.js"></script>
-        <script defer src="sources/js/video.js"></script>
-        <!-- FAVicon -->
-        <link rel="shortcut icon" href="sources/img/favicon.ico" type="image/x-icon">
-        <link rel="icon" href="sources/img/favicon.ico" type="image/x-icon">
-        <!-- Librerias -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-        
-		<!-- start Mixpanel --> <script>
-        (function(e,a){if(!a.__SV){var b=window;try{var c,l,i,j=b.location,g=j.hash;c=function(a,b){return(l=a.match(RegExp(b+"=([^&]*)")))?l[1]:null};g&&c(g,"state")&&(i=JSON.parse(decodeURIComponent(c(g,"state"))),"mpeditor"===i.action&&(b.sessionStorage.setItem("_mpcehash",g),history.replaceState(i.desiredHash||"",e.title,j.pathname+j.search)))}catch(m){}var k,h;window.mixpanel=a;a._i=[];a.init=function(b,c,f){function e(b,a){var c=a.split(".");2==c.length&&(b=b[c[0]],a=c[1]);b[a]=function(){b.push([a].concat(Array.prototype.slice.call(arguments,
-0)))}}var d=a;"undefined"!==typeof f?d=a[f]=[]:f="mixpanel";d.people=d.people||[];d.toString=function(b){var a="mixpanel";"mixpanel"!==f&&(a+="."+f);b||(a+=" (stub)");return a};d.people.toString=function(){return d.toString(1)+".people (stub)"};k="disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user".split(" ");
-for(h=0;h<k.length;h++)e(d,k[h]);a._i.push([b,c,f])};a.__SV=1.2;b=e.createElement("script");b.type="text/javascript";b.async=!0;b.src="undefined"!==typeof MIXPANEL_CUSTOM_LIB_URL?MIXPANEL_CUSTOM_LIB_URL:"file:"===e.location.protocol&&"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//)?"https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js":"//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";c=e.getElementsByTagName("script")[0];c.parentNode.insertBefore(b,c)}})(document,window.mixpanel||[]);
-mixpanel.init("a4d648dade7a472480e45427e7a14cff");</script>
-        <!-- end Mixpanel -->
-		
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115617305-1"></script>
-        <script>
-		try{
-			(function(i, s, o, g, r, a, m) {
-						i['GoogleAnalyticsObject'] = r;
 
-						i[r] = i[r] || function() {
-							var arrayValue = i[r].q || [];
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Become a Pied à Terre host, Affiliate your property and feel the spirit of our community">
+    <meta name="Keywords" content="Host, Afiliate, Properties, Spirit, Community">
+    <!-- Links -->
+    <link rel="stylesheet" type="text/css" href="sources/css/style.css">
+    <script defer src="sources/js/validate.js"></script>
+    <script defer src="sources/js/video.js"></script>
+    <!-- FAVicon -->
+    <link rel="shortcut icon" href="sources/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="sources/img/favicon.ico" type="image/x-icon">
+    <!-- Librerias -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
-							i[r].q = arrayValue;
+    <!-- start Mixpanel -->
+    <script>
+        (function (e, a) {
+            if (!a.__SV) {
+                var b = window;
+                try {
+                    var c, l, i, j = b.location,
+                        g = j.hash;
+                    c = function (a, b) {
+                        return (l = a.match(RegExp(b + "=([^&]*)"))) ? l[1] : null
+                    };
+                    g && c(g, "state") && (i = JSON.parse(decodeURIComponent(c(g, "state"))), "mpeditor" === i.action &&
+                        (b.sessionStorage.setItem("_mpcehash", g), history.replaceState(i.desiredHash || "", e.title,
+                            j.pathname + j.search)))
+                } catch (m) {}
+                var k, h;
+                window.mixpanel = a;
+                a._i = [];
+                a.init = function (b, c, f) {
+                    function e(b, a) {
+                        var c = a.split(".");
+                        2 == c.length && (b = b[c[0]], a = c[1]);
+                        b[a] = function () {
+                            b.push([a].concat(Array.prototype.slice.call(arguments,
+                                0)))
+                        }
+                    }
+                    var d = a;
+                    "undefined" !== typeof f ? d = a[f] = [] : f = "mixpanel";
+                    d.people = d.people || [];
+                    d.toString = function (b) {
+                        var a = "mixpanel";
+                        "mixpanel" !== f && (a += "." + f);
+                        b || (a += " (stub)");
+                        return a
+                    };
+                    d.people.toString = function () {
+                        return d.toString(1) + ".people (stub)"
+                    };
+                    k =
+                        "disable time_event track track_pageview track_links track_forms register register_once alias unregister identify name_tag set_config reset people.set people.set_once people.unset people.increment people.append people.union people.track_charge people.clear_charges people.delete_user"
+                        .split(" ");
+                    for (h = 0; h < k.length; h++) e(d, k[h]);
+                    a._i.push([b, c, f])
+                };
+                a.__SV = 1.2;
+                b = e.createElement("script");
+                b.type = "text/javascript";
+                b.async = !0;
+                b.src = "undefined" !== typeof MIXPANEL_CUSTOM_LIB_URL ? MIXPANEL_CUSTOM_LIB_URL : "file:" === e.location
+                    .protocol && "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js".match(/^\/\//) ?
+                    "https://cdn.mxpnl.com/libs/mixpanel-2-latest.min.js" :
+                    "//cdn.mxpnl.com/libs/mixpanel-2-latest.min.js";
+                c = e.getElementsByTagName("script")[0];
+                c.parentNode.insertBefore(b, c)
+            }
+        })(document, window.mixpanel || []);
+        mixpanel.init("a4d648dade7a472480e45427e7a14cff");
+    </script>
+    <!-- end Mixpanel -->
 
-							(i[r].q).push(arguments);
-						};
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-115617305-1"></script>
+    <script>
+        try {
+            (function (i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r;
 
-						i[r].l = 1 * new Date();
+                i[r] = i[r] || function () {
+                    var arrayValue = i[r].q || [];
 
-						a = s.createElement(o);
-						m = s.getElementsByTagName(o)[0];
-						a.async = 1;
-						a.src = g;
-						m.parentNode.insertBefore(a, m);
-					})(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+                    i[r].q = arrayValue;
 
-					ga('create', 'UA-115617305-1', 'auto');
-					ga('send', 'pageview');
-		}catch(err)
-		{
-		}
-            
-        </script>
+                    (i[r].q).push(arguments);
+                };
 
-        <title>Welcome to Piéd à Térre World</title>
-    </head>
+                i[r].l = 1 * new Date();
 
-    <body>
-        <!-- Encabezado -->
-        <header>
-            <div class="header1">
-                <div class="imagen-header">
-                    <a href='https://goo.gl/G8W58D'><img class="imagen" src="sources/img/image.png" alt="pieadterre"></a>
-                </div>
+                a = s.createElement(o);
+                m = s.getElementsByTagName(o)[0];
+                a.async = 1;
+                a.src = g;
+                m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+            ga('create', 'UA-115617305-1', 'auto');
+            ga('send', 'pageview');
+        } catch (err) {}
+    </script>
+
+    <title>Welcome to Piéd à Térre World</title>
+</head>
+
+<body>
+    <!-- Encabezado -->
+    <header>
+        <div class="header1">
+            <div class="imagen-header">
+                <a href='https://goo.gl/G8W58D'>
+                    <img class="imagen" src="sources/img/image.png" alt="pieadterre">
+                </a>
             </div>
+        </div>
 
-        </header>
-        <!-- Primera Seccion-->
-        <div class="primera-seccion">
-            <div class="texto1">
-                <span class="avenir-R fs35">Turn your property into a profitable asset by
-                    joining our international community of hosts and live an exciting experience.</span>
-            </div>
+    </header>
+    <!-- Primera Seccion-->
+    <div class="primera-seccion">
+        <div class="texto1">
+            <span class="avenir-R fs35">Turn your property into a profitable asset by joining our international community of hosts and live an exciting
+                experience.</span>
+        </div>
 
 
-            <div class="video-player">
-             <!-- Button HTML (to Trigger Popup) -->
-             <a href="#popup" class="btn btn-lg btn-primary1" data-toggle="modal"><span class="bot">Watch Video</span></a>
-             <!-- Popup HTML -->
+        <div class="video-player">
+            <!-- Button HTML (to Trigger Popup) -->
+            <a href="#popup" class="btn btn-lg btn-primary1" data-toggle="modal">
+                <span class="bot">Watch Video</span>
+            </a>
+            <!-- Popup HTML -->
             <div id="popup" class="modal fade">
-             <div class="modal-dialog">
-               <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">Close</button>
-                    <h4 class="modal-title">Welcome to Pied à Terre</h4>
-                </div>
-                <div class="modal-body">
-                  <iframe id="pied" class="pied-video" src="https://www.youtube.com/embed/rWKfku4BgxQ"></iframe>
-                  <!-- <video width="100%"  controls="controls">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">Close</button>
+                            <h4 class="modal-title">Welcome to Pied à Terre</h4>
+                        </div>
+                        <div class="modal-body">
+                            <iframe id="pied" class="pied-video" src="https://www.youtube.com/embed/rWKfku4BgxQ"></iframe>
+                            <!-- <video width="100%"  controls="controls">
                     <source id="pied" src="sources/media/Welcome_to_Pied_a_Terre.mp4" type="video/mp4">
                   </video> -->
+                        </div>
+                    </div>
                 </div>
-                </div>
-             </div>
-             </div>
-
             </div>
 
         </div>
-        <!-- Segunda Seccion-->
-        <div class="segunda-seccion">
-            <div class="texto2">
-                <span>Join now and receive a complimentary set of Pied à Terre’s exclusive
-                    household goods.</span>
-            </div>
-            <button  onclick=" location.href='https://goo.gl/Rkndji' " class="botton1">REGISTER NOW</button>
-        </div>
-        <!-- Tercera Seccion -->
-        <div class="tercera-seccion">
-            <div class="texto3">
-                <span class="resaltado1">What makes us different</span>
-            </div>
-            <!-- Div 1 con dos banner -->
-            <div class="pri">
-                <div class="ban1">
-                    <div class="img1">
-                        <img
-                            class="imge-exp1"
-                            src="sources/img/Menaje-jabones-350px.jpg"
-                            alt="STANDARIZED HOUSEHOLD GOODS"/>
-                    </div>
-                    <div class="text">
-                        <div class="title">
-                            <span>STANDARIZED HOUSEHOLD GOODS</span></div>
-                        <span class="garamondP">In order to guarantee the highest level of quality and service we offer a
-                            fine collection of bed linen, bath towels and amenities, which can be purchased
-                            in our online boutique at an amazing price.</span>
-                    </div>
-                </div>
-                <div class="ban1">
-                    <div class="img1">
-                        <img
-                            class="imge-exp1"
-                            src="sources/img/Entrenamiento-350px.jpg"
-                            alt="FREE TRAINING">
-                    </div>
-                    <div class="text">
-                        <div class="title">
-                            <span>FREE TRAINING</span></div>
-                        <span class="garamondP">Our hosts are entitled to a personal guidance and training on the
-                            fundamentals of the customer care, operation, routines, and in general the
-                            particularities of the residential hotel business.
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <!-- Div2 con dos banner -->
-            <div class="pri">
-                <div class="ban1">
-                    <div class="img1">
-                        <img
-                            class="imge-exp1"
-                            src="sources/img/consultoria-350px.jpg"
-                            alt="PROFESSIONAL CONSULTING">
-                    </div>
-                    <div class="text">
-                        <div class="title">
-                            <span>PROFESSIONAL CONSULTING</span></div>
-                        <span class="garamondP">We provide our hosts with a free service of consultancy 24 hours a day, 7
-                            days a week by our qualified personnel both online and by telephone.</span>
-                    </div>
-                </div>
-                <div class="ban1">
-                    <div class="img1">
-                        <img class="imge-exp1" src="sources/img/marketing-350px.jpg"
-                         alt="FREE MARKETING PLAN">
-                    </div>
-                    <div class="text">
-                        <div class="title">
-                            <span>FREE MARKETING PLAN</span></div>
-                        <span class="garamondP">Need travelers? We got your back! From the moment a property becomes part
-                            of the Pied à Terre community; Our marketing specialists will create a digital
-                            campaign to advertise the property both on our social networks and Google ads.</span>
-                    </div>
-                </div>
-            </div>
-            <!-- Div3 con un banner -->
-            <div class="pri">
-                <div class="ban1">
-                    <div class="img1">
-                        <img class="imge-exp" src="sources/img/Anfitriones-350px.jpg" alt="A SECURE INCOME, FREE OF WORRIES">
-                    </div>
-                    <div class="text">
-                        <div class="title">
-                            <span>A SECURE INCOME, FREE OF WORRIES</span></div>
-                        <span class="garamondP">Unlike anyother platform we cover the expenses of: property damage
-                            insurance for third party accidents.</span>
-                    </div>
-                </div>
-                <div class="ban1">
-                    <div class="img1">
-                        <img class="imge-exp1" src="sources/img/Rutas-350px.jpg" alt="DESIGNED ROUTES AND EXPERIENCES">
-                    </div>
-                    <div class="text">
-                        <div class="title">
-                            <span>DESIGNED ROUTES AND EXPERIENCES</span></div>
-                        <span class="garamondP">
-                            Our Pied à Terre experts are continuously creating amazing routes and
-                            experiences to attract travelers all over the world. Discover our trademark
-                            route the “Camino de Santiago de Compostela”.</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Fin banners -->
-        <!-- Formulario -->
-        <div id="Exito" class="formulario1">
-            <div class="texto4">
-                <span class="resaltado2">Become a Host</span>
-            </div>
-            <form class="formulario2 " method="POST" action="regis.php">
-                <div class="formulario3">
-                  <input
-                      type="text"
-                      name="nombre1"
-                      class="f_name"
-                      placeholder="First Name"
-                      id="nombre1"
-                      required/>
-                  <input
-                      type="text"
-                      name="nombre2"
-                      class="l_name"
-                      placeholder="Last Name"
-                      id="nombre2"
-                      required/>
-              </div>
-              <div class="formulario3">
-                  <input
-                      type="email"
-                      name="email"
-                      class="input100 email"
-                      placeholder="Email Address"
-                      id="email"
-                      required="required"/>
-              </div>
-              <div class="formulario3">
-                  <input
-                      type="tel"
-                      name="Zipcode"
-                      class="zc"
-                      placeholder="ZIP code"
-                      id="Zipcode"
-                      required="required"/>
-                    <input type="tel" name="number" class="p_number" placeholder="Phone Number"/>
-                </div>
-                <div class="formulario3">
-                    <select name="pais" class="input100 country" id="pais">
-                        <option value="" selected="selected">--Select your Country--</option>
-                        <option value="AD">Andorra</option>
-                        <option value="AE">United Arab Emirates</option>
-                        <option value="AF">Afghanistan</option>
-                        <option value="AG">Antigua and Barbuda</option>
-                        <option value="AI">Anguilla</option>
-                        <option value="AL">Albania</option>
-                        <option value="AM">Armenia</option>
-                        <option value="AO">Angola</option>
-                        <option value="AQ">Antarctica</option>
-                        <option value="AR">Argentina</option>
-                        <option value="AS">American Samoa</option>
-                        <option value="AT">Austria</option>
-                        <option value="AU">Australia</option>
-                        <option value="AW">Aruba</option>
-                        <option value="AX">Åland Islands</option>
-                        <option value="AZ">Azerbaijan</option>
-                        <option value="BA">Bosnia and Herzegovina</option>
-                        <option value="BB">Barbados</option>
-                        <option value="BD">Bangladesh</option>
-                        <option value="BE">Belgium</option>
-                        <option value="BF">Burkina Faso</option>
-                        <option value="BG">Bulgaria</option>
-                        <option value="BH">Bahrain</option>
-                        <option value="BI">Burundi</option>
-                        <option value="BJ">Benin</option>
-                        <option value="BL">Saint Barthélemy</option>
-                        <option value="BM">Bermuda</option>
-                        <option value="BN">Brunei Darussalam</option>
-                        <option value="BO">Bolivia</option>
-                        <option value="BQ">Caribbean Netherlands </option>
-                        <option value="BR">Brazil</option>
-                        <option value="BS">Bahamas</option>
-                        <option value="BT">Bhutan</option>
-                        <option value="BV">Bouvet Island</option>
-                        <option value="BW">Botswana</option>
-                        <option value="BY">Belarus</option>
-                        <option value="BZ">Belize</option>
-                        <option value="CA">Canada</option>
-                        <option value="CC">Cocos (Keeling) Islands</option>
-                        <option value="CD">Congo, Democratic Republic of</option>
-                        <option value="CF">Central African Republic</option>
-                        <option value="CG">Congo</option>
-                        <option value="CH">Switzerland</option>
-                        <option value="CI">Côte d'Ivoire</option>
-                        <option value="CK">Cook Islands</option>
-                        <option value="CL">Chile</option>
-                        <option value="CM">Cameroon</option>
-                        <option value="CN">China</option>
-                        <option value="CO">Colombia</option>
-                        <option value="CR">Costa Rica</option>
-                        <option value="CU">Cuba</option>
-                        <option value="CV">Cape Verde</option>
-                        <option value="CW">Curaçao</option>
-                        <option value="CX">Christmas Island</option>
-                        <option value="CY">Cyprus</option>
-                        <option value="CZ">Czech Republic</option>
-                        <option value="DE">Germany</option>
-                        <option value="DJ">Djibouti</option>
-                        <option value="DK">Denmark</option>
-                        <option value="DM">Dominica</option>
-                        <option value="DO">Dominican Republic</option>
-                        <option value="DZ">Algeria</option>
-                        <option value="EC">Ecuador</option>
-                        <option value="EE">Estonia</option>
-                        <option value="EG">Egypt</option>
-                        <option value="EH">Western Sahara</option>
-                        <option value="ER">Eritrea</option>
-                        <option value="ES">Spain</option>
-                        <option value="ET">Ethiopia</option>
-                        <option value="FI">Finland</option>
-                        <option value="FJ">Fiji</option>
-                        <option value="FK">Falkland Islands</option>
-                        <option value="FM">Micronesia, Federated States of</option>
-                        <option value="FO">Faroe Islands</option>
-                        <option value="FR">France</option>
-                        <option value="GA">Gabon</option>
-                        <option value="GB">United Kingdom</option>
-                        <option value="GD">Grenada</option>
-                        <option value="GE">Georgia</option>
-                        <option value="GF">French Guiana</option>
-                        <option value="GG">Guernsey</option>
-                        <option value="GH">Ghana</option>
-                        <option value="GI">Gibraltar</option>
-                        <option value="GL">Greenland</option>
-                        <option value="GM">Gambia</option>
-                        <option value="GN">Guinea</option>
-                        <option value="GP">Guadeloupe</option>
-                        <option value="GQ">Equatorial Guinea</option>
-                        <option value="GR">Greece</option>
-                        <option value="GS">South Georgia and the South Sandwich Islands</option>
-                        <option value="GT">Guatemala</option>
-                        <option value="GU">Guam</option>
-                        <option value="GW">Guinea-Bissau</option>
-                        <option value="GY">Guyana</option>
-                        <option value="HK">Hong Kong</option>
-                        <option value="HM">Heard and McDonald Islands</option>
-                        <option value="HN">Honduras</option>
-                        <option value="HR">Croatia</option>
-                        <option value="HT">Haiti</option>
-                        <option value="HU">Hungary</option>
-                        <option value="ID">Indonesia</option>
-                        <option value="IE">Ireland</option>
-                        <option value="IL">Israel</option>
-                        <option value="IM">Isle of Man</option>
-                        <option value="IN">India</option>
-                        <option value="IO">British Indian Ocean Territory</option>
-                        <option value="IQ">Iraq</option>
-                        <option value="IR">Iran</option>
-                        <option value="IS">Iceland</option>
-                        <option value="IT">taly</option>
-                        <option value="JE">Jersey</option>
-                        <option value="JM">Jamaica</option>
-                        <option value="JO">Jordan</option>
-                        <option value="JP">Japan</option>
-                        <option value="KE">Kenya</option>
-                        <option value="KG">Kyrgyzstan</option>
-                        <option value="KH">Cambodia</option>
-                        <option value="KI">Kiribati</option>
-                        <option value="KM">Comoros</option>
-                        <option value="KN">Saint Kitts and Nevis</option>
-                        <option value="KP">North Korea</option>
-                        <option value="KR">South Korea</option>
-                        <option value="KW">Kuwait</option>
-                        <option value="KY">Cayman Islands</option>
-                        <option value="KZ">Kazakhstan</option>
-                        <option value="LA">Lao People's Democratic Republic</option>
-                        <option value="LB">Lebanon</option>
-                        <option value="LC">Saint Lucia</option>
-                        <option value="LI">Liechtenstein</option>
-                        <option value="LK">Sri Lanka</option>
-                        <option value="LR">Liberia</option>
-                        <option value="LS">Lesotho</option>
-                        <option value="LT">Lithuania</option>
-                        <option value="LU">Luxembourg</option>
-                        <option value="LV">Latvia</option>
-                        <option value="LY">Libya</option>
-                        <option value="MA">Morocco</option>
-                        <option value="MC">Monaco</option>
-                        <option value="MD">Moldova</option>
-                        <option value="ME">Montenegro</option>
-                        <option value="MF">Saint Martin (France)</option>
-                        <option value="MG">Madagascar</option>
-                        <option value="MH">Marshall Islands</option>
-                        <option value="MK">Macedonia</option>
-                        <option value="ML">Mali</option>
-                        <option value="MM">Myanmar</option>
-                        <option value="MN">Mongolia</option>
-                        <option value="MO">Macau</option>
-                        <option value="MP">Northern Mariana Islands</option>
-                        <option value="MQ">Martinique</option>
-                        <option value="MR">Mauritania</option>
-                        <option value="MS">Montserrat</option>
-                        <option value="MT">Malta</option>
-                        <option value="MU">Mauritius</option>
-                        <option value="MV">Maldives</option>
-                        <option value="MW">Malawi</option>
-                        <option value="MX">Mexico</option>
-                        <option value="MY">Malaysia</option>
-                        <option value="MZ">Mozambique</option>
-                        <option value="NA">Namibia</option>
-                        <option value="NC">New Caledonia</option>
-                        <option value="NE">Niger</option>
-                        <option value="NF">Norfolk Island</option>
-                        <option value="NG">Nigeria</option>
-                        <option value="NI">Nicaragua</option>
-                        <option value="NL">The Netherlands</option>
-                        <option value="NO">Norway</option>
-                        <option value="NP">Nepal</option>
-                        <option value="NR">Nauru</option>
-                        <option value="NU">Niue</option>
-                        <option value="NZ">New Zealand</option>
-                        <option value="OM">Oman</option>
-                        <option value="PA">Panama</option>
-                        <option value="PE">Peru</option>
-                        <option value="PF">French Polynesia</option>
-                        <option value="PG">Papua New Guinea</option>
-                        <option value="PH">Philippines</option>
-                        <option value="PK">Pakistan</option>
-                        <option value="PL">Poland</option>
-                        <option value="PM">St. Pierre and Miquelon</option>
-                        <option value="PN">Pitcairn</option>
-                        <option value="PR">Puerto Rico</option>
-                        <option value="PS">Palestine, State of</option>
-                        <option value="PT">Portugal</option>
-                        <option value="PW">Palau</option>
-                        <option value="PY">Paraguay</option>
-                        <option value="QA">Qatar</option>
-                        <option value="RE">Réunion</option>
-                        <option value="RO">Romania</option>
-                        <option value="RS">Serbia</option>
-                        <option value="RU">Russian Federation</option>
-                        <option value="RW">Rwanda</option>
-                        <option value="SA">Saudi Arabia</option>
-                        <option value="SB">Solomon Islands</option>
-                        <option value="SC">Seychelles</option>
-                        <option value="SD">Sudan</option>
-                        <option value="SE">Sweden</option>
-                        <option value="SG">Singapore</option>
-                        <option value="SH">Saint Helena</option>
-                        <option value="SI">Slovenia</option>
-                        <option value="SJ">Svalbard and Jan Mayen Islands</option>
-                        <option value="SK">Slovakia</option>
-                        <option value="SL">Sierra Leone</option>
-                        <option value="SM">San Marino</option>
-                        <option value="SN">Senegal</option>
-                        <option value="SO">Somalia</option>
-                        <option value="SR">Suriname</option>
-                        <option value="SS">South Sudan</option>
-                        <option value="ST">Sao Tome and Principe</option>
-                        <option value="SV">El Salvador</option>
-                        <option value="SX">Sint Maarten (Dutch part)</option>
-                        <option value="SY">Syria</option>
-                        <option value="SZ">Swaziland</option>
-                        <option value="TC">Turks and Caicos Islands</option>
-                        <option value="TD">Chad</option>
-                        <option value="TF">French Southern Territories</option>
-                        <option value="TG">Togo</option>
-                        <option value="TH">Thailand</option>
-                        <option value="TJ">Tajikistan</option>
-                        <option value="TK">Tokelau</option>
-                        <option value="TL">Timor Leste</option>
-                        <option value="TM">Turkmenistan</option>
-                        <option value="TN">Tunisia</option>
-                        <option value="TO">Tonga</option>
-                        <option value="TR">Turkey</option>
-                        <option value="TT">Trinidad and Tobago</option>
-                        <option value="TV">Tuvalu</option>
-                        <option value="TW">Taiwan</option>
-                        <option value="TZ">Tanzania</option>
-                        <option value="UA">Ukraine</option>
-                        <option value="UG">Uganda</option>
-                        <option value="UM">United States Minor Outlying Islands</option>
-                        <option value="US">United States</option>
-                        <option value="UY">Uruguay</option>
-                        <option value="UZ">Uzbekistan</option>
-                        <option value="VA">Vatican</option>
-                        <option value="VC">Saint Vincent and the Grenadines</option>
-                        <option value="VE">Venezuela</option>
-                        <option value="VG">Virgin Islands (British)</option>
-                        <option value="VI">Virgin Islands (U.S.)</option>
-                        <option value="VN">Vietnam</option>
-                        <option value="VU">Vanuatu</option>
-                        <option value="WF">Wallis and Futuna Islands</option>
-                        <option value="WS">Samoa</option>
-                        <option value="YE">Yemen</option>
-                        <option value="YT">Mayotte</option>
-                        <option value="ZA">South Africa</option>
-                        <option value="ZM">Zambia</option>
-                        <option value="ZW">Zimbabwe</option>
 
-                    </select>
+    </div>
+    <!-- Segunda Seccion-->
+    <div class="segunda-seccion">
+        <div class="texto2">
+            <span>Join now and receive a complimentary set of Pied à Terre’s exclusive household goods.</span>
+        </div>
+        <button onclick=" location.href='https://goo.gl/Rkndji' " class="botton1">REGISTER NOW</button>
+    </div>
+    <!-- Tercera Seccion -->
+    <div class="tercera-seccion">
+        <div class="texto3">
+            <span class="resaltado1">What makes us different</span>
+        </div>
+        <!-- Div 1 con dos banner -->
+        <div class="pri">
+            <div class="ban1">
+                <div class="img1">
+                    <img class="imge-exp1" src="sources/img/Menaje-jabones-350px.jpg" alt="STANDARIZED HOUSEHOLD GOODS" />
                 </div>
-                <button type="submit" class="botton" >CONTACT US</button>
-            </form>
+                <div class="text">
+                    <div class="title">
+                        <span>STANDARIZED HOUSEHOLD GOODS</span>
+                    </div>
+                    <span class="garamondP">In order to guarantee the highest level of quality and service we offer a fine collection of bed linen,
+                        bath towels and amenities, which can be purchased in our online boutique at an amazing price.</span>
+                </div>
+            </div>
+            <div class="ban1">
+                <div class="img1">
+                    <img class="imge-exp1" src="sources/img/Entrenamiento-350px.jpg" alt="FREE TRAINING">
+                </div>
+                <div class="text">
+                    <div class="title">
+                        <span>FREE TRAINING</span>
+                    </div>
+                    <span class="garamondP">Our hosts are entitled to a personal guidance and training on the fundamentals of the customer care,
+                        operation, routines, and in general the particularities of the residential hotel business.
+                    </span>
+                </div>
+            </div>
         </div>
-        <!-- fin formulario -->
-        <!-- Cuarta Seccion -->
-        <div class="cuarta-seccion">
-            <div class="texto5">
-                <span>Don’t feel like filling forms? We’ll do it for you!</span>
+        <!-- Div2 con dos banner -->
+        <div class="pri">
+            <div class="ban1">
+                <div class="img1">
+                    <img class="imge-exp1" src="sources/img/consultoria-350px.jpg" alt="PROFESSIONAL CONSULTING">
+                </div>
+                <div class="text">
+                    <div class="title">
+                        <span>PROFESSIONAL CONSULTING</span>
+                    </div>
+                    <span class="garamondP">We provide our hosts with a free service of consultancy 24 hours a day, 7 days a week by our qualified
+                        personnel both online and by telephone.</span>
+                </div>
             </div>
-            <div class="texto5">
-                <span>Call us at 84 35 90 26 or email us at</span>
-            </div>
-            <div class="texto5">
-                <a href="mailto:help@piedaterre.world" class="resaltado3">help@piedaterre.world</a>
+            <div class="ban1">
+                <div class="img1">
+                    <img class="imge-exp1" src="sources/img/marketing-350px.jpg" alt="FREE MARKETING PLAN">
+                </div>
+                <div class="text">
+                    <div class="title">
+                        <span>FREE MARKETING PLAN</span>
+                    </div>
+                    <span class="garamondP">Need travelers? We got your back! From the moment a property becomes part of the Pied à Terre community;
+                        Our marketing specialists will create a digital campaign to advertise the property both on our social
+                        networks and Google ads.</span>
+                </div>
             </div>
         </div>
-        <!-- Quinta seccion -->
-        <div class="quinta-seccion">
-            <div class="texto3">
-                <span class="resaltado1">Our Community of Hosts</span>
+        <!-- Div3 con dos banner -->
+        <div class="pri">
+            <div class="ban1">
+                <div class="img1">
+                    <img class="imge-exp" src="sources/img/Anfitriones-350px.jpg" alt="A SECURE INCOME, FREE OF WORRIES">
+                </div>
+                <div class="text">
+                    <div class="title">
+                        <span>A SECURE INCOME, FREE OF WORRIES</span>
+                    </div>
+                    <span class="garamondP">Unlike anyother platform we cover the expenses of: property damage insurance for third party accidents.</span>
+                </div>
             </div>
-            <!-- Banners -->
-            <div class="img-community">
-                <div class="b1">
-                    <img class="b2" src="sources/img/Ryo-Kan-terraza-300px1.jpg" alt="">
-                    <div class="b3">
-                        <span>Ryo Kan, Mexico City, México.
+            <div class="ban1">
+                <div class="img1">
+                    <img class="imge-exp1" src="sources/img/Rutas-350px.jpg" alt="DESIGNED ROUTES AND EXPERIENCES">
+                </div>
+                <div class="text">
+                    <div class="title">
+                        <span>DESIGNED ROUTES AND EXPERIENCES</span>
+                    </div>
+                    <span class="garamondP">
+                        Our Pied à Terre experts are continuously creating amazing routes and experiences to attract travelers all over the world.
+                        Discover our trademark route the “Camino de Santiago de Compostela”.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fin banners -->
+    <!-- Formulario -->
+    <div id="Exito" class="formulario1">
+        <div class="texto4">
+            <span class="resaltado2">Become a Host</span>
+        </div>
+        <form class="formulario2 " method="POST" action="regis.php">
+            <div class="formulario3">
+                <input type="text" name="nombre1" class="f_name" placeholder="First Name" id="nombre1" required/>
+                <input type="text" name="nombre2" class="l_name" placeholder="Last Name" id="nombre2" required/>
+            </div>
+            <div class="formulario3">
+                <input type="email" name="email" class="input100 email" placeholder="Email Address" id="email" required="required" />
+            </div>
+            <div class="formulario3">
+                <input type="tel" name="Zipcode" class="zc" placeholder="ZIP code" id="Zipcode" required="required" />
+                <input type="tel" name="number" class="p_number" placeholder="Phone Number" />
+            </div>
+            <div class="formulario3">
+                <select name="pais" class="input100 country" id="pais">
+                    <option value="" selected="selected">--Select your Country--</option>
+                    <option value="AD">Andorra</option>
+                    <option value="AE">United Arab Emirates</option>
+                    <option value="AF">Afghanistan</option>
+                    <option value="AG">Antigua and Barbuda</option>
+                    <option value="AI">Anguilla</option>
+                    <option value="AL">Albania</option>
+                    <option value="AM">Armenia</option>
+                    <option value="AO">Angola</option>
+                    <option value="AQ">Antarctica</option>
+                    <option value="AR">Argentina</option>
+                    <option value="AS">American Samoa</option>
+                    <option value="AT">Austria</option>
+                    <option value="AU">Australia</option>
+                    <option value="AW">Aruba</option>
+                    <option value="AX">Åland Islands</option>
+                    <option value="AZ">Azerbaijan</option>
+                    <option value="BA">Bosnia and Herzegovina</option>
+                    <option value="BB">Barbados</option>
+                    <option value="BD">Bangladesh</option>
+                    <option value="BE">Belgium</option>
+                    <option value="BF">Burkina Faso</option>
+                    <option value="BG">Bulgaria</option>
+                    <option value="BH">Bahrain</option>
+                    <option value="BI">Burundi</option>
+                    <option value="BJ">Benin</option>
+                    <option value="BL">Saint Barthélemy</option>
+                    <option value="BM">Bermuda</option>
+                    <option value="BN">Brunei Darussalam</option>
+                    <option value="BO">Bolivia</option>
+                    <option value="BQ">Caribbean Netherlands </option>
+                    <option value="BR">Brazil</option>
+                    <option value="BS">Bahamas</option>
+                    <option value="BT">Bhutan</option>
+                    <option value="BV">Bouvet Island</option>
+                    <option value="BW">Botswana</option>
+                    <option value="BY">Belarus</option>
+                    <option value="BZ">Belize</option>
+                    <option value="CA">Canada</option>
+                    <option value="CC">Cocos (Keeling) Islands</option>
+                    <option value="CD">Congo, Democratic Republic of</option>
+                    <option value="CF">Central African Republic</option>
+                    <option value="CG">Congo</option>
+                    <option value="CH">Switzerland</option>
+                    <option value="CI">Côte d'Ivoire</option>
+                    <option value="CK">Cook Islands</option>
+                    <option value="CL">Chile</option>
+                    <option value="CM">Cameroon</option>
+                    <option value="CN">China</option>
+                    <option value="CO">Colombia</option>
+                    <option value="CR">Costa Rica</option>
+                    <option value="CU">Cuba</option>
+                    <option value="CV">Cape Verde</option>
+                    <option value="CW">Curaçao</option>
+                    <option value="CX">Christmas Island</option>
+                    <option value="CY">Cyprus</option>
+                    <option value="CZ">Czech Republic</option>
+                    <option value="DE">Germany</option>
+                    <option value="DJ">Djibouti</option>
+                    <option value="DK">Denmark</option>
+                    <option value="DM">Dominica</option>
+                    <option value="DO">Dominican Republic</option>
+                    <option value="DZ">Algeria</option>
+                    <option value="EC">Ecuador</option>
+                    <option value="EE">Estonia</option>
+                    <option value="EG">Egypt</option>
+                    <option value="EH">Western Sahara</option>
+                    <option value="ER">Eritrea</option>
+                    <option value="ES">Spain</option>
+                    <option value="ET">Ethiopia</option>
+                    <option value="FI">Finland</option>
+                    <option value="FJ">Fiji</option>
+                    <option value="FK">Falkland Islands</option>
+                    <option value="FM">Micronesia, Federated States of</option>
+                    <option value="FO">Faroe Islands</option>
+                    <option value="FR">France</option>
+                    <option value="GA">Gabon</option>
+                    <option value="GB">United Kingdom</option>
+                    <option value="GD">Grenada</option>
+                    <option value="GE">Georgia</option>
+                    <option value="GF">French Guiana</option>
+                    <option value="GG">Guernsey</option>
+                    <option value="GH">Ghana</option>
+                    <option value="GI">Gibraltar</option>
+                    <option value="GL">Greenland</option>
+                    <option value="GM">Gambia</option>
+                    <option value="GN">Guinea</option>
+                    <option value="GP">Guadeloupe</option>
+                    <option value="GQ">Equatorial Guinea</option>
+                    <option value="GR">Greece</option>
+                    <option value="GS">South Georgia and the South Sandwich Islands</option>
+                    <option value="GT">Guatemala</option>
+                    <option value="GU">Guam</option>
+                    <option value="GW">Guinea-Bissau</option>
+                    <option value="GY">Guyana</option>
+                    <option value="HK">Hong Kong</option>
+                    <option value="HM">Heard and McDonald Islands</option>
+                    <option value="HN">Honduras</option>
+                    <option value="HR">Croatia</option>
+                    <option value="HT">Haiti</option>
+                    <option value="HU">Hungary</option>
+                    <option value="ID">Indonesia</option>
+                    <option value="IE">Ireland</option>
+                    <option value="IL">Israel</option>
+                    <option value="IM">Isle of Man</option>
+                    <option value="IN">India</option>
+                    <option value="IO">British Indian Ocean Territory</option>
+                    <option value="IQ">Iraq</option>
+                    <option value="IR">Iran</option>
+                    <option value="IS">Iceland</option>
+                    <option value="IT">taly</option>
+                    <option value="JE">Jersey</option>
+                    <option value="JM">Jamaica</option>
+                    <option value="JO">Jordan</option>
+                    <option value="JP">Japan</option>
+                    <option value="KE">Kenya</option>
+                    <option value="KG">Kyrgyzstan</option>
+                    <option value="KH">Cambodia</option>
+                    <option value="KI">Kiribati</option>
+                    <option value="KM">Comoros</option>
+                    <option value="KN">Saint Kitts and Nevis</option>
+                    <option value="KP">North Korea</option>
+                    <option value="KR">South Korea</option>
+                    <option value="KW">Kuwait</option>
+                    <option value="KY">Cayman Islands</option>
+                    <option value="KZ">Kazakhstan</option>
+                    <option value="LA">Lao People's Democratic Republic</option>
+                    <option value="LB">Lebanon</option>
+                    <option value="LC">Saint Lucia</option>
+                    <option value="LI">Liechtenstein</option>
+                    <option value="LK">Sri Lanka</option>
+                    <option value="LR">Liberia</option>
+                    <option value="LS">Lesotho</option>
+                    <option value="LT">Lithuania</option>
+                    <option value="LU">Luxembourg</option>
+                    <option value="LV">Latvia</option>
+                    <option value="LY">Libya</option>
+                    <option value="MA">Morocco</option>
+                    <option value="MC">Monaco</option>
+                    <option value="MD">Moldova</option>
+                    <option value="ME">Montenegro</option>
+                    <option value="MF">Saint Martin (France)</option>
+                    <option value="MG">Madagascar</option>
+                    <option value="MH">Marshall Islands</option>
+                    <option value="MK">Macedonia</option>
+                    <option value="ML">Mali</option>
+                    <option value="MM">Myanmar</option>
+                    <option value="MN">Mongolia</option>
+                    <option value="MO">Macau</option>
+                    <option value="MP">Northern Mariana Islands</option>
+                    <option value="MQ">Martinique</option>
+                    <option value="MR">Mauritania</option>
+                    <option value="MS">Montserrat</option>
+                    <option value="MT">Malta</option>
+                    <option value="MU">Mauritius</option>
+                    <option value="MV">Maldives</option>
+                    <option value="MW">Malawi</option>
+                    <option value="MX">Mexico</option>
+                    <option value="MY">Malaysia</option>
+                    <option value="MZ">Mozambique</option>
+                    <option value="NA">Namibia</option>
+                    <option value="NC">New Caledonia</option>
+                    <option value="NE">Niger</option>
+                    <option value="NF">Norfolk Island</option>
+                    <option value="NG">Nigeria</option>
+                    <option value="NI">Nicaragua</option>
+                    <option value="NL">The Netherlands</option>
+                    <option value="NO">Norway</option>
+                    <option value="NP">Nepal</option>
+                    <option value="NR">Nauru</option>
+                    <option value="NU">Niue</option>
+                    <option value="NZ">New Zealand</option>
+                    <option value="OM">Oman</option>
+                    <option value="PA">Panama</option>
+                    <option value="PE">Peru</option>
+                    <option value="PF">French Polynesia</option>
+                    <option value="PG">Papua New Guinea</option>
+                    <option value="PH">Philippines</option>
+                    <option value="PK">Pakistan</option>
+                    <option value="PL">Poland</option>
+                    <option value="PM">St. Pierre and Miquelon</option>
+                    <option value="PN">Pitcairn</option>
+                    <option value="PR">Puerto Rico</option>
+                    <option value="PS">Palestine, State of</option>
+                    <option value="PT">Portugal</option>
+                    <option value="PW">Palau</option>
+                    <option value="PY">Paraguay</option>
+                    <option value="QA">Qatar</option>
+                    <option value="RE">Réunion</option>
+                    <option value="RO">Romania</option>
+                    <option value="RS">Serbia</option>
+                    <option value="RU">Russian Federation</option>
+                    <option value="RW">Rwanda</option>
+                    <option value="SA">Saudi Arabia</option>
+                    <option value="SB">Solomon Islands</option>
+                    <option value="SC">Seychelles</option>
+                    <option value="SD">Sudan</option>
+                    <option value="SE">Sweden</option>
+                    <option value="SG">Singapore</option>
+                    <option value="SH">Saint Helena</option>
+                    <option value="SI">Slovenia</option>
+                    <option value="SJ">Svalbard and Jan Mayen Islands</option>
+                    <option value="SK">Slovakia</option>
+                    <option value="SL">Sierra Leone</option>
+                    <option value="SM">San Marino</option>
+                    <option value="SN">Senegal</option>
+                    <option value="SO">Somalia</option>
+                    <option value="SR">Suriname</option>
+                    <option value="SS">South Sudan</option>
+                    <option value="ST">Sao Tome and Principe</option>
+                    <option value="SV">El Salvador</option>
+                    <option value="SX">Sint Maarten (Dutch part)</option>
+                    <option value="SY">Syria</option>
+                    <option value="SZ">Swaziland</option>
+                    <option value="TC">Turks and Caicos Islands</option>
+                    <option value="TD">Chad</option>
+                    <option value="TF">French Southern Territories</option>
+                    <option value="TG">Togo</option>
+                    <option value="TH">Thailand</option>
+                    <option value="TJ">Tajikistan</option>
+                    <option value="TK">Tokelau</option>
+                    <option value="TL">Timor Leste</option>
+                    <option value="TM">Turkmenistan</option>
+                    <option value="TN">Tunisia</option>
+                    <option value="TO">Tonga</option>
+                    <option value="TR">Turkey</option>
+                    <option value="TT">Trinidad and Tobago</option>
+                    <option value="TV">Tuvalu</option>
+                    <option value="TW">Taiwan</option>
+                    <option value="TZ">Tanzania</option>
+                    <option value="UA">Ukraine</option>
+                    <option value="UG">Uganda</option>
+                    <option value="UM">United States Minor Outlying Islands</option>
+                    <option value="US">United States</option>
+                    <option value="UY">Uruguay</option>
+                    <option value="UZ">Uzbekistan</option>
+                    <option value="VA">Vatican</option>
+                    <option value="VC">Saint Vincent and the Grenadines</option>
+                    <option value="VE">Venezuela</option>
+                    <option value="VG">Virgin Islands (British)</option>
+                    <option value="VI">Virgin Islands (U.S.)</option>
+                    <option value="VN">Vietnam</option>
+                    <option value="VU">Vanuatu</option>
+                    <option value="WF">Wallis and Futuna Islands</option>
+                    <option value="WS">Samoa</option>
+                    <option value="YE">Yemen</option>
+                    <option value="YT">Mayotte</option>
+                    <option value="ZA">South Africa</option>
+                    <option value="ZM">Zambia</option>
+                    <option value="ZW">Zimbabwe</option>
+
+                </select>
+            </div>
+            <button type="submit" class="botton">CONTACT US</button>
+        </form>
+    </div>
+    <!-- fin formulario -->
+    <!-- Cuarta Seccion -->
+    <div class="cuarta-seccion">
+        <div class="texto5">
+            <span>Don’t feel like filling forms? We’ll do it for you!</span>
+        </div>
+        <div class="texto5">
+            <span>Call us at 84 35 90 26 or email us at</span>
+        </div>
+        <div class="texto5">
+            <a href="mailto:help@piedaterre.world" class="resaltado3">help@piedaterre.world</a>
+        </div>
+    </div>
+    <!-- Quinta seccion -->
+    <div class="quinta-seccion">
+        <div class="texto3">
+            <span class="resaltado1">Our Community of Hosts</span>
+        </div>
+        <!-- Banners -->
+        <div class="img-community">
+            <div class="b1">
+                <img class="b2" src="sources/img/Ryo-Kan-terraza-300px1.jpg" alt="Ryo Kan, Mexico City, México">
+                <div class="b3">
+                    <span>Ryo Kan, Mexico City, México.
                         <br>
                         <span class="resaltado5">Host: Daniel Gómez.</span>
                     </span>
                 </div>
             </div>
             <div class="b1">
-                <img class="b2" src="sources/img/Siranda-300px1.jpg" alt="">
+                <img class="b2" src="sources/img/Siranda-300px1.jpg" alt="La Siranda, Pátzcuaro, México">
                 <div class="b3">
                     <span>La Siranda, Pátzcuaro, México.
-                    <br>
-                    <span class="resaltado5">Host: Isabel Lange Silva.</span>
-                </span>
+                        <br>
+                        <span class="resaltado5">Host: Isabel Lange Silva.</span>
+                    </span>
+                </div>
+            </div>
+            <div class="b1">
+                <img class="b2" src="sources/img/CachitoDeCielo-Tulum-300px1.jpg" alt="Cachito de Cielo, Tulum, México">
+                <div class="b3">
+                    <span>Cachito de Cielo, Tulum, México.
+                        <br>
+                        <span class="resaltado5">Host: Gisselle Martín del Campo.</span>
+                    </span>
+                </div>
+            </div>
+            <div class="b1">
+                <img class="b2" src="sources/img/Morelia_Hom-300px1.jpg" alt="Hotel HOM, Morelia, México">
+                <div class="b3">
+                    <span>Hotel HOM, Morelia, México.
+                        <br>
+                        <span class="resaltado5">Host: Marisol Sandoval.</span>
+                    </span>
+                </div>
             </div>
         </div>
-        <div class="b1">
-            <img class="b2" src="sources/img/CachitoDeCielo-Tulum-300px1.jpg" alt="">
-            <div class="b3">
-                <span>Cachito de Cielo, Tulum, México.
-                <br>
-                <span class="resaltado5">Host: Gisselle Martín del Campo.</span>
-            </span>
-        </div>
     </div>
-    <div class="b1">
-        <img class="b2" src="sources/img/Morelia_Hom-300px1.jpg" alt="">
-        <div class="b3">
-            <span>Hotel HOM, Morelia, México.
-            <br>
-            <span class="resaltado5">Host: Marisol Sandoval.</span>
-        </span>
-    </div>
-</div>
-</div>
-</div>
 </body>
 <footer>
-<a class="textofooter resaltado4" href='https://goo.gl/G8W58D'>Learn more about Pied à Terre</a>
+    <a class="textofooter resaltado4" href='https://goo.gl/G8W58D'>Learn more about Pied à Terre</a>
 </footer>
 
 </html>
