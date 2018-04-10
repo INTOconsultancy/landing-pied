@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    var ercp=/(^([0-9]{5,5})|^)$/;
     var emailreg = /^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/;
     $(".botton").click(function () {
       $(".error").remove();
@@ -20,10 +21,10 @@ $(document).ready(function () {
             return false;
 
         }
-        else if ($(".zc").val() == "") {
+        else if ($(".zc").val() == ""|| !ercp.test($(".zc").val())) {
             $(".zc")
                 .focus()
-                .after("<span class='error'>Required field </span>");
+                .after("<span class='error'>Required valid field</span>");
             return false;
         }
         else if ($(".p_number").val() == "") {
@@ -60,6 +61,7 @@ $(document).ready(function () {
             return false;
         }
     });
+    
     //scroll//
     $(function() {
     $('a[href*=#]').on('click', function(e) {
